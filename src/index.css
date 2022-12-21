@@ -1,22 +1,77 @@
 .navbar-brand {
   font-family: 'DM Serif Display', serif;
+  padding-left: 3rem;
 }
 
 .navbar {
-  margin: 1rem;
+  padding-left: 2rem;
+  background: none;
+  background-color: none;
 }
 
 .navbar .navbar-brand {
-  color: white;
+  color: #001565;
 }
 
 .navbar-nav .nav-link {
-  color: white;
+  color: #001565;
 }
 
-body {
+.nav-right-container {
+  padding-right: 3rem;;
+}
+
+.home-body {
   background-image: url("../public/img/bg_image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  text-align: center;
 }
+
+.home-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  padding-top: 8rem;
+}
+
+.subheading h2{
+  font-size: 1rem;
+  font-family: 'Libre Franklin', sans-serif;}
+
+.heading h1 {
+  font-size: 3.5rem;
+  font-family: 'DM Serif Display', serif;
+}
+
+.home-container .paragraph {
+  width: 600px;
+  font-family: 'Libre Franklin', sans-serif;}
+
+.btn-primary{
+  background-color:#001565 !important;
+  border-color: #001565 !important;
+  font-family: 'Libre Franklin', sans-serif !important;}
+
+
+/* @media (min-width: 320px) {
+
+  .heading h1 {
+    font-size: 3rem;
+  }
+  
+  .subheading h2{
+    font-size: 1.5rem;
+  }
+  
+  .home-container .paragraph {
+    width: 300px;
+    ;
+  }
+  
+
+} */
