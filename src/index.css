@@ -1,0 +1,22 @@
+.navbar-brand {
+  font-family: 'DM Serif Display', serif;
+}
+
+.navbar {
+  margin: 1rem;
+}
+
+.navbar .navbar-brand {
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+body {
+  background-image: url("../public/img/bg_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
