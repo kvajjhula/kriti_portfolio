@@ -13,7 +13,7 @@ export function HomePage(props) {
                     <h2>Undergraduate Student</h2>
                 </div>
                 <div className="paragraph">
-                    <p>I’m a second year student at the University of Washington Seattle with an interest in Human Computer Interaction. I am passionate about tackling design projects that are rooted at the intersection of education and sustainability</p>
+                    <p>I’m a third year student at the University of Washington Seattle studying informatics with a focus in Human Computer Interaction and Software Development. I am passionate about tackling design projects that are rooted at the intersection of education and sustainability.</p>
                 </div>
                 <Link to="/Projects">
                     <Button variant="primary">See My Work!</Button>
