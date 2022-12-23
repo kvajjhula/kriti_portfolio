@@ -1,8 +1,5 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
-import Container from 'react-bootstrap/Container'
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import { useState } from 'react';
 
 
 export function ProjectsPage(props) {
@@ -11,6 +8,13 @@ export function ProjectsPage(props) {
         const card = <ProjectCard key={project.title} projects={project} />
         return card;
     });
+
+    const [isHovering, setIsHovering] = useState(false);
+
+    function handleMouseOver(event) {
+        console.log(event.target);
+        setIsHovering(true);
+    };
 
     return (
         <div>
@@ -22,6 +26,7 @@ export function ProjectsPage(props) {
             <div>
                 <div className="project-container">
                     {projArray}
+
                 </div>
             </div>
         </div>
@@ -30,15 +35,28 @@ export function ProjectsPage(props) {
 }
 
 function ProjectCard(props) {
+    const [isHovering, setIsHovering] = useState(false);
+
+    function handleMouseOver(event) {
+        setIsHovering(true);
+    };
+
+    function handleMouseOut(event) {
+        setIsHovering(false);
+    };
+
     const project = props.projects;
     return (
-        <div>
-            <div className="project-item text-center">
-                <h3>{project.title}</h3>
-                <p>{project.description}</p>
+        <div className="project-item text-center" >
+            <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} className="project-item-image">
+                <img className="image" src={project.img} width="200" height="300" />
+                {isHovering && <h2>Hello world</h2>}
             </div>
-            <div>
-                <img>src={project.img}</img>
+            <div className="overlay">
+                <div className="overlay-text">
+                    <h3>{project.title}</h3>
+                    <p>{project.description}</p>
+                </div>
             </div>
         </div>
     );

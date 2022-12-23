@@ -1,15 +1,27 @@
 [
     {
         "title": "Guppy",
-        "description": "A product design project done in an introduction to informatics class.",
+        "description": "A product design project done in an .",
         "img":"../img/GuppyPortfolio.png"
     },
     {
         "title": "PlayDate",
-        "description": "UW WINFO Hackathon Project"
+        "description": "UW WINFO Hackathon Project",
+        "img":""
     },
     {
         "title": "PlayD3ate",
-        "description": "UW WINFO Hackathon Project"
+        "description": "UW WINFO Hackathon Project",
+        "img":""
+    },
+    {
+        "title": "PlayDat",
+        "description": "UW WINFO Hackathon Project",
+        "img":""
+    },
+    {
+        "title": "PlyDat",
+        "description": "UW WINFO Hackathon Project",
+        "img":""
     }
 ]
