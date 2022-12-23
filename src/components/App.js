@@ -1,10 +1,11 @@
 import React from 'react';
 import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
-import { NavBar } from './Nav.js';
-import { HomePage } from './Home.js';
-import { ProjectsPage } from './Projects.js';
+import { NavBar } from '../components/Nav.js';
+import { HomePage } from '../components/Home.js';
+import { ProjectsPage } from '../components/Projects.js';
 
 export default function App(props) {
+
   return (
     <div>
       <NavBar />
@@ -12,7 +13,7 @@ export default function App(props) {
         <Routes>
           <Route path="*" element={<Navigate to="/" />} />
           <Route path="/" element={<HomePage />} />
-          <Route path="/Projects" element={<ProjectsPage/>} />
+          <Route path="/Projects" element={<ProjectsPage projects={props.projects}/>} />
         </Routes>
       </div>
     </div>

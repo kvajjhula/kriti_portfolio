@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Guppy",
+        "description": "A product design project done in an introduction to informatics class.",
+        "img":"../img/GuppyPortfolio.png"
+    },
+    {
+        "title": "PlayDate",
+        "description": "UW WINFO Hackathon Project"
+    },
+    {
+        "title": "PlayD3ate",
+        "description": "UW WINFO Hackathon Project"
+    }
+]
