@@ -139,6 +139,25 @@ html {
   /* height: 100%; */
   object-fit: cover;
 }
+
+.project-cards .project-card {
+  border-radius: 0;
+  text-align: center;
+  transition: .5s ease;
+
+}
+
+.project-cards .project-card .card-img {
+  border-radius: 0;
+}
+
+.project-cards .project-card.mask {
+  background: linear-gradient(45deg,
+  rgba(29, 236, 197, 0.5),
+  rgba(91, 14, 214, 0.5) 100%);
+}
+
+
 /* 
 .overlay {
   position: absolute;

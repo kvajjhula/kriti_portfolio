@@ -1,21 +1,10 @@
 import React from 'react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { MDBCard, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardText, MDBRow, MDBCardGroup, MDBCol } from 'mdb-react-ui-kit';
 
 
 export function ProjectsPage(props) {
-
-    const projArray = props.projects.map((project) => {
-        const card = <ProjectCard key={project.title} projects={project} />
-        return card;
-    });
-
-    const [isHovering, setIsHovering] = useState(false);
-
-    function handleMouseOver(event) {
-        console.log(event.target);
-        setIsHovering(true);
-    };
-
     return (
         <div>
             <div className="project-title-container">
@@ -23,41 +12,63 @@ export function ProjectsPage(props) {
                     <h1 className="">Projects</h1>
                 </div>
             </div>
-            <div>
-                <div className="project-container">
-                    {projArray}
-
-                </div>
-            </div>
+            <MDBRow className='project-cards row-cols-1 row-cols-md-2 g-4 gx-9 my-5 mx-5'>
+                <MDBCol md='3' >
+                    <MDBCard as={Link} to='/Home' className="project-card">
+                        <MDBCardImage className="card-img"
+                            src="../img/GuppyPortfolio.png"
+                            alt='...'
+                            position='top'
+                        />
+                        <div className="mask">
+                            <div className="d-flex justify-content-center align-items-center h-100">
+                            </div>
+                        </div>
+                        <MDBCardBody>
+                            <MDBCardTitle>Guppy</MDBCardTitle>
+                        </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
+                <MDBCol md='3'>
+                    <MDBCard className="project-card">
+                        <MDBCardImage className="card-img"
+                            src="../img/PlantParenthood.png"
+                            alt='...'
+                            position='top'
+                        />
+                        <MDBCardBody>
+                            <MDBCardTitle>Plant Parenthood</MDBCardTitle>
+                        </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
+                <MDBCol md='3'>
+                    <MDBCard className="project-card">
+                        <MDBCardImage className="card-img"
+                            src='../img/Playdate.png'
+                            alt='...'
+                            position='top'
+                        />
+                        <MDBCardBody>
+                            <MDBCardTitle>PlayDate</MDBCardTitle>
+                        </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
+                <MDBCol md='3'>
+                    <MDBCard className="project-card">
+                        <MDBCardImage className="card-img"
+                            src='../img/foundry10.svg'
+                            alt='...'
+                            position='top'
+                        />
+                        <MDBCardBody>
+                            <MDBCardTitle>Foundry10 VR Learning Map</MDBCardTitle>
+                        </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
+            </MDBRow>
         </div>
 
     )
 }
 
-function ProjectCard(props) {
-    const [isHovering, setIsHovering] = useState(false);
 
-    function handleMouseOver(event) {
-        setIsHovering(true);
-    };
-
-    function handleMouseOut(event) {
-        setIsHovering(false);
-    };
-
-    const project = props.projects;
-    return (
-        <div className="project-item text-center" >
-            <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} className="project-item-image">
-                <img className="image" src={project.img} width="200" height="300" />
-                {isHovering && <h2>Hello world</h2>}
-            </div>
-            <div className="overlay">
-                <div className="overlay-text">
-                    <h3>{project.title}</h3>
-                    <p>{project.description}</p>
-                </div>
-            </div>
-        </div>
-    );
-}
