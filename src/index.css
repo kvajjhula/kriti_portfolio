@@ -112,7 +112,9 @@ html {
   font-family: 'DM Serif Display', 'serif';
 }
 
-.project-container {
+
+
+/* .project-container {
   margin-left: 1rem;
   margin-top: 2rem;
   display: flex;
@@ -121,41 +123,36 @@ html {
   justify-content: center;
   flex-basis: auto;
   align-items: stretch;
-}
+} */
 
-.project-item {
+/* .project-item {
   width: 25rem;
   background-color: pink;
   max-width: 100%;
-  height: fit-content;
+  // height: fit-content;
   margin: 1rem;
   padding-top: 1rem;
   
-  /* padding: 1rem; */
-}
+  padding: 1rem;
+} */
 
-.project-item img {
+/* .project-item img {
   width: 100%;
-  /* height: 100%; */
+  // height: 100%;
   object-fit: cover;
-}
+} */
 
-.project-cards .project-card {
+/* .project-cards .project-card {
   border-radius: 0;
   text-align: center;
   transition: .5s ease;
 
-}
+} */
 
-.project-cards .project-card .card-img {
+/* .project-cards .project-card .card-img {
   border-radius: 0;
-}
+} */
 
-.project-cards .project-card.mask {
-  background: linear-gradient(45deg,
-  rgba(29, 236, 197, 0.5),
-  rgba(91, 14, 214, 0.5) 100%);
-}
 
 
 /* 
