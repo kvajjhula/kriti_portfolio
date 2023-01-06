@@ -112,6 +112,24 @@ html {
   font-family: 'DM Serif Display', 'serif';
 }
 
+.project-page {
+  padding-bottom: 5rem;
+}
+
+.project-cards .project-card {
+  border-radius: 0;
+}
+
+.project-cards .project-card img{
+  border-radius: 0;
+}
+
+.card-title {
+  color: black;
+  text-align: center;
+
+}
+
 
 
 /* .project-container {
