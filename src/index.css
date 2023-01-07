@@ -120,6 +120,10 @@ html {
   border-radius: 0;
 }
 
+.project-cards .project-card:hover {
+  background-color: #F0ecf1;
+} 
+
 .project-cards .project-card img{
   border-radius: 0;
 }
@@ -127,7 +131,10 @@ html {
 .card-title {
   color: black;
   text-align: center;
-
+}
+ 
+a:link {
+  text-decoration: none;
 }
 
 
