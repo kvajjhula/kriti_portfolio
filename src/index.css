@@ -137,6 +137,47 @@ a:link {
   text-decoration: none;
 }
 
+/*  Playdate Page */
+
+/* .playdate-title-img {
+  margin-left: 1rem;
+}
+
+.playdate-title {
+  margin-left: 1rem;
+} */
+
+.proj-description {
+  margin: 3rem;
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.heading-img {
+  max-width: 20rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* .project-container {
