@@ -5,6 +5,7 @@
 html {
   height: 100%;
 }
+
 /* Navbar */
 
 .navbar-brand {
@@ -122,9 +123,9 @@ html {
 
 .project-cards .project-card:hover {
   background-color: #F0ecf1;
-} 
+}
 
-.project-cards .project-card img{
+.project-cards .project-card img {
   border-radius: 0;
 }
 
@@ -132,33 +133,86 @@ html {
   color: black;
   text-align: center;
 }
- 
+
 a:link {
   text-decoration: none;
 }
 
 /*  Playdate Page */
 
-/* .playdate-title-img {
-  margin-left: 1rem;
-}
-
-.playdate-title {
-  margin-left: 1rem;
-} */
-
 .proj-description {
-  margin: 3rem;
-  margin-top: 6rem;
+  margin-bottom: 5rem !important;
   text-align: center;
 }
 
-.heading-img {
-  max-width: 20rem;
+.playdate-title {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 2rem;
 }
 
+.playdate-title h1 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-size: 4rem;
+  color: #00125f;
+  font-family: 'DM Serif Display', serif;
+}
 
+.playdate-title h2 {
+  padding-bottom: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 25px;
+}
 
+.playdate-title p {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.playdate-title-img img {
+  width: 290px;
+  margin-left: 10rem;
+  margin-top: 6rem;
+}
+
+.playdate-details {
+  background-color: #a060ad;
+  color: white;
+  padding: 7rem;
+  text-align:justify;
+}
+
+.playdate-details h3 {
+  font-family: 'DM Serif Display', serif;
+}
+
+.playdate-details .playdate-context {
+  padding-right: 6rem;
+  padding-left: 6rem;
+}
+
+.playdate-details .playdate-result {
+  padding-right: 8rem;
+}
+
+#des-process {
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  margin: 5rem;
+  font-size: 4rem;
+  color: #001565;
+}
+
+.playdate-summary {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  background-color: antiquewhite;
+}
 
 
 
