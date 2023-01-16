@@ -74,21 +74,35 @@ export function PlayDate(props) {
                     <p>
                         During the brainstorming process, we identified our target user audience to be elementary school aged kids. However, social development changes drastically from one age bracket to the next making it important to tailor our app to a certain age. We decided to model our prototype around a user completing either 2nd or 3rd grade.
 
-                        Some key skills 2nd and 3rd graders should be able to learn at this stage in their executive functioning development include:
-                        <br></br>
-                        <ol>
+                        Some key skills 2nd and 3rd graders should be able to learn at this stage in their executive functioning development include: </p>
+                    <br></br>
+                    <ol>
 
-                            <li> How to read cues and/or facial expressions of peers</li>
+                        <li> How to read cues and/or facial expressions of peers</li>
 
-                            <li> How to ask to join in play </li>
+                        <li> How to ask to join in play </li>
 
-                            <li>How to respond to peers, especially when told no, or when teased </li>
+                        <li>How to respond to peers, especially when told no, or when teased </li>
 
-                            <li>How to ask for what they want/need in healthy and productive ways</li>
-                        </ol>
-                        </p>
+                        <li>How to ask for what they want/need in healthy and productive ways</li>
+                    </ol>
+
                 </Col>
             </Row>
+
+            <MDBRow className="dev-sol-playdate-container">
+                <MDBCol md="6">
+                    <div id="developing-solution-playdate">
+                        <h1 id="developing-solution-heading">Developing a Solution</h1>
+                        <p>Given a short timeframe, we decided to condense our journey map and low fidelity prototype into a FigJam ideation board. A few key components we were considering including splitting the types of interactions into a “Practice on Your Own” feature and a “Connect with the Class” feature where teachers and students could have a forum to facilitate discussion.</p>
+                    </div>
+                </MDBCol>
+                <MDBCol md="6">
+                    <div className="ideation-playdate">
+                        <img src="../img/Playdate/ideation-playdate.png" />
+                    </div>
+                </MDBCol>
+            </MDBRow>
 
         </div >
     )
