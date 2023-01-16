@@ -104,6 +104,27 @@ export function PlayDate(props) {
                 </MDBCol>
             </MDBRow>
 
+            <MDBContainer className='activity-types-playdate'>
+                <MDBRow>
+                    <h1>Types of Activities</h1>
+                    <MDBCol md="4">
+                        <h2>Conversations with Class</h2>
+                        <img src="../img/Playdate/conv-class.webp"/>
+                        <p className='act-types-playdate-desc'>Allows the child to interact with peers with a teacher or supervisor to mediate the discussion. They are able to create fun and interesting prompts for the class to talk about and record and submit their responses.</p>
+                    </MDBCol>
+                    <MDBCol md="4">
+                        <h2>Conversation Starters</h2>
+                        <img src="../img/Playdate/conv-starters.webp"/>
+                        <p className='act-types-playdate-desc'>Gives ideas for different scenarios to facilitate casual conversation with other peers. This feature also allows the user to practice and record and save their responses.</p>
+                    </MDBCol>
+                    <MDBCol md="4">
+                        <h2>Navigate Through a Story</h2>
+                        <img src="../img/Playdate/nav-story.webp"/>
+                        <p className='act-types-playdate-desc'>Presents the user with a social scenario in which they have to identify emotion cues, show ability to empathize and respond to a social situation appropriately.</p>
+                    </MDBCol>
+                </MDBRow>
+            </MDBContainer>
+
         </div >
     )
 }
