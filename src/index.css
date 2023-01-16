@@ -181,7 +181,7 @@ a:link {
   background-color: #a060ad;
   color: white;
   padding: 7rem;
-  text-align:justify;
+  text-align: justify;
 }
 
 .playdate-details h3 {
@@ -205,14 +205,51 @@ a:link {
   color: #001565;
 }
 
-.playdate-summary {
-  margin-left: 5rem;
-  margin-right: 5rem;
-  margin-bottom: 5rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
-  background-color: antiquewhite;
+.playdate-def-problem-img img{
+  float: right;
+  max-width: 600px;
 }
+
+.playdate-def-problem-img {
+align-items: center;
+
+}
+
+.playdate-def-container {
+  margin-left: 4rem !important;
+  margin-right: 4rem !important;
+  padding: 1rem;
+  margin-bottom: 2rem !important;
+  background-color: #c5c6d0;
+}
+
+.playdate-def-container h2 {
+  color: #001565;
+  font-family: 'DM Serif Display', serif;
+  text-align: center;
+  padding-top: 5rem;
+  font-size: 2rem;
+  line-height: 4rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+
+
+}
+
+.playdate-def-container p {
+  font-family: 'Libre Franklin', sans-serif;
+  letter-spacing: 0.05rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.playdate-def-problem-text {
+  padding-left: 3rem;
+  line-height: 2rem;
+}
+
 
 
 

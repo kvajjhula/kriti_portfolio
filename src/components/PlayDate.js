@@ -1,5 +1,7 @@
 import React from 'react';
 import { MDBRow, MDBCol, MDBContainer } from 'mdb-react-ui-kit';
+import { Row, Col } from 'react-bootstrap';
+
 
 export function PlayDate(props) {
     return (
@@ -45,18 +47,24 @@ export function PlayDate(props) {
 
             <h1 id="des-process">Design Process</h1>
 
-            <MDBCol md="12">
-                <div className='playdate-summary'>
-                    <h2>Defining the Problem</h2>
-                    <p>Defining The Problem: COVID-19 and Social Development
-                        Child development experts emphasize the importance of social learning for elementary age children. Being able to interact with other kids of the same age fosters "executive functioning" skills such as impulse control, holding several simultaneous thoughts, and the mental flexibility to problem solve. These skills develop with exposure to peers and having to engage in social interaction.
 
 
+            <Row className="playdate-def-container">
+                <Col xs={6} className="playdate-def-problem-img">
+                    <img src="../img/Playdate/defining_problem.jpg" alt="your-image-description" />
+                </Col>
+                <Col className="playdate-def-problem-text" xs={6}>
+                    <h2>Defining The Problem: COVID-19 and Social Development</h2>
+                    <p>
+                        Child development experts emphasize the importance of social learning for elementary age children. Being able to interact with other kids of the same age fosters "executive functioning" skills such as impulse control, holding several simultaneous thoughts, and the mental flexibility to problem solve. These skills develop with exposure to peers and having to engage in social interaction. Missing out on social interaction throughout the unexpected closures of schools and other activities have severely limited social development among kids. Learning on a Zoom call cannot nearly encompass the opportunities for social learning that a playground, cafeteria, or classroom can. Even after schools opened up, kids have not been able to interact with each other as much as they have done before.</p>
+                </Col>
+            </Row>
 
-                        Missing out on social interaction throughout the unexpected closures of schools and other activities have severely limited social development among kids. Learning on a Zoom call cannot nearly encompass the opportunities for social learning that a playground, cafeteria, or classroom can. Even after schools opened up, kids have not been able to interact with each other as much as they have done before.</p>
-                </div>
-            </MDBCol>
+            {/* <div>
+                urmom
+            </div> */}
 
-        </div>
+
+        </div >
     )
 }
