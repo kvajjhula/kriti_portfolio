@@ -264,7 +264,7 @@ a:link {
   font-family: 'DM Serif Display', serif;
   margin: 5rem;
   font-size: 3.5rem;
-  color: #001565;
+  color: #a270d1;
 }
 
 .user-needs-playdate-img img {
@@ -324,7 +324,7 @@ a:link {
   font-family: 'DM Serif Display', serif;
   margin: 5rem;
   font-size: 3.5rem;
-  color: #001565;
+  color: #a270d1;
 }
 
 .ideation-playdate img {
@@ -351,7 +351,7 @@ a:link {
   margin: 1.5rem;
 }
 
-.activity-types-playdate h1, 
+.activity-types-playdate h1,
 .activity-types-playdate h2 {
   color: white;
   font-family: 'DM Serif Display', serif;
@@ -363,3 +363,46 @@ a:link {
   color: white;
 }
 
+
+#final-sol-playdate {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  font-family: 'Libre Franklin', sans-serif;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: justify;
+  line-height: 1.7rem;
+  margin-bottom: 10rem;
+}
+
+#final-sol-playdate-heading {
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  margin: 5rem;
+  font-size: 3.5rem;
+  color: #a270d1;
+}
+
+.playdate-carousel img {
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.playdate-carousel {
+  justify-content: space-between;
+  margin-right: 2rem !important;
+  margin-left: 2rem !important;
+
+}
+
+#sel-screens-playdate {
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  margin: 5rem;
+  font-size: 3.5rem;
+  color: #a270d1;
+}
+
+button {
+  margin-bottom: 2rem;
+}

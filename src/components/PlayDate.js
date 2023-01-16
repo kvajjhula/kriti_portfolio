@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBRow, MDBCol, MDBContainer } from 'mdb-react-ui-kit';
+import { MDBRow, MDBCol, MDBContainer, MDBBtn } from 'mdb-react-ui-kit';
 import { Row, Col } from 'react-bootstrap';
 
 
@@ -67,7 +67,7 @@ export function PlayDate(props) {
 
             <Row className="user-needs-playdate-container">
                 <Col xs={6} className="user-needs-playdate-img">
-                    <img src="../img/Playdate/user-needs.jpg" alt="your-image-description" />
+                    <img className='img-fluid shadow-4' src="../img/Playdate/user-needs.jpg" alt="your-image-description" />
                 </Col>
                 <Col className="user-needs-playdate-text" xs={6}>
                     <h2>Understanding the User: Addressing User Needs</h2>
@@ -109,22 +109,53 @@ export function PlayDate(props) {
                     <h1>Types of Activities</h1>
                     <MDBCol md="4">
                         <h2>Conversations with Class</h2>
-                        <img src="../img/Playdate/conv-class.webp"/>
+                        <img src="../img/Playdate/conv-class.webp" />
                         <p className='act-types-playdate-desc'>Allows the child to interact with peers with a teacher or supervisor to mediate the discussion. They are able to create fun and interesting prompts for the class to talk about and record and submit their responses.</p>
                     </MDBCol>
                     <MDBCol md="4">
                         <h2>Conversation Starters</h2>
-                        <img src="../img/Playdate/conv-starters.webp"/>
+                        <img src="../img/Playdate/conv-starters.webp" />
                         <p className='act-types-playdate-desc'>Gives ideas for different scenarios to facilitate casual conversation with other peers. This feature also allows the user to practice and record and save their responses.</p>
                     </MDBCol>
                     <MDBCol md="4">
                         <h2>Navigate Through a Story</h2>
-                        <img src="../img/Playdate/nav-story.webp"/>
+                        <img src="../img/Playdate/nav-story.webp" />
                         <p className='act-types-playdate-desc'>Presents the user with a social scenario in which they have to identify emotion cues, show ability to empathize and respond to a social situation appropriately.</p>
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>
 
+            <h1 id="sel-screens-playdate">Selected Screens</h1>
+
+            <MDBRow className='playdate-carousel'>
+                <MDBCol md="2">
+                    <img src='../img/Playdate/carousel-1.webp' title='carousel-1' />
+                </MDBCol>
+                <MDBCol md="2">
+                    <img src='../img/Playdate/carousel-2.webp' title='carousel-2' />
+                </MDBCol>
+                <MDBCol md="2">
+                    <img src='../img/Playdate/carousel-3.webp' title='carousel-3' />
+                </MDBCol>
+                <MDBCol md="2">
+                    <img src='../img/Playdate/carousel-4.webp' title='carousel-4' />
+                </MDBCol>
+                <MDBCol md="2">
+                    <img src='../img/Playdate/carousel-5.webp' title='carousel-5' />
+                </MDBCol>
+            </MDBRow>
+
+
+            <div id="final-sol-playdate">
+                <h1 id="final-sol-playdate-heading">Describing the Challenge</h1>
+                <p>As a team, we knew we wanted to create a mobile application to provide a solution to this issue. However, the apparent problem was that online schooling is an unsuitable platform for social learning. How would we be able to transform an interface that inherently facilitates less face-to-face interaction into an experience that allows kids to practice conversational skills, problem-solving, and coexisting with others?</p>
+                <div className="d-flex align-items-center">
+                    <MDBBtn color="primary" className="mx-auto" href="https://www.figma.com/proto/Ml8naDrZoGdohDDoa2nAtc/WINFO-Hack?node-id=0%3A1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=9%3A2">
+                        View Prototype
+                    </MDBBtn>
+
+                </div>
+            </div>
         </div >
     )
 }
