@@ -35,6 +35,7 @@ export function PlayDate(props) {
                             <MDBRow>
                                 <MDBCol className="group-members">
                                     <h3>Group Members</h3>
+                                    <li>Kriti Vajjhula</li>
                                     <li>Vega Jethani</li>
                                     <li>Esha Bantwal</li>
                                     <li>Sean Guevarra</li>
@@ -63,6 +64,31 @@ export function PlayDate(props) {
                 <h1 id="describing-challenge-playdate-heading">Describing the Challenge</h1>
                 <p>As a team, we knew we wanted to create a mobile application to provide a solution to this issue. However, the apparent problem was that online schooling is an unsuitable platform for social learning. How would we be able to transform an interface that inherently facilitates less face-to-face interaction into an experience that allows kids to practice conversational skills, problem-solving, and coexisting with others?</p>
             </div>
+
+            <Row className="user-needs-playdate-container">
+                <Col xs={6} className="user-needs-playdate-img">
+                    <img src="../img/Playdate/user-needs.jpg" alt="your-image-description" />
+                </Col>
+                <Col className="user-needs-playdate-text" xs={6}>
+                    <h2>Understanding the User: Addressing User Needs</h2>
+                    <p>
+                        During the brainstorming process, we identified our target user audience to be elementary school aged kids. However, social development changes drastically from one age bracket to the next making it important to tailor our app to a certain age. We decided to model our prototype around a user completing either 2nd or 3rd grade.
+
+                        Some key skills 2nd and 3rd graders should be able to learn at this stage in their executive functioning development include:
+                        <br></br>
+                        <ol>
+
+                            <li> How to read cues and/or facial expressions of peers</li>
+
+                            <li> How to ask to join in play </li>
+
+                            <li>How to respond to peers, especially when told no, or when teased </li>
+
+                            <li>How to ask for what they want/need in healthy and productive ways</li>
+                        </ol>
+                        </p>
+                </Col>
+            </Row>
 
         </div >
     )

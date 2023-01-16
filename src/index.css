@@ -256,9 +256,6 @@ a:link {
   padding-right: 3rem;
   text-align: justify;
   line-height: 1.7rem;
-
-
-
 }
 
 #describing-challenge-playdate-heading {
@@ -267,4 +264,47 @@ a:link {
   margin: 5rem;
   font-size: 3.5rem;
   color: #001565;
+}
+
+
+
+
+
+.user-needs-playdate-img img {
+  float: right;
+  max-width: 550px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.user-needs-playdate-container {
+  margin-left: 7rem !important;
+  margin-right: 7rem !important;
+  padding: 1rem;
+  margin-bottom: 2rem !important;
+  background-color: pink;
+}
+
+.user-needs-playdate-container h2 {
+  color: #001565;
+  font-family: 'DM Serif Display', serif;
+  text-align: center;
+  padding-top: 5rem;
+  font-size: 2rem;
+  line-height: 4rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.user-needs-playdate-container p {
+  font-family: 'Libre Franklin', sans-serif;
+  /* letter-spacing: 0.05rem; */
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.user-needs-playdate-text {
+  padding-left: 3rem;
+  line-height: 1.7rem;
 }
