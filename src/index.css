@@ -197,27 +197,28 @@ a:link {
   padding-right: 8rem;
 }
 
-#des-process {
+#des-process-playdate {
   text-align: center;
   font-family: 'DM Serif Display', serif;
   margin: 5rem;
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #001565;
 }
 
-.playdate-def-problem-img img{
+.playdate-def-problem-img img {
   float: right;
-  max-width: 600px;
+  max-width: 550px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .playdate-def-problem-img {
-align-items: center;
-
+  align-items: center;
 }
 
 .playdate-def-container {
-  margin-left: 4rem !important;
-  margin-right: 4rem !important;
+  margin-left: 7rem !important;
+  margin-right: 7rem !important;
   padding: 1rem;
   margin-bottom: 2rem !important;
   background-color: #c5c6d0;
@@ -233,111 +234,37 @@ align-items: center;
   padding-bottom: 2rem;
   padding-left: 3rem;
   padding-right: 3rem;
-
-
-
 }
 
 .playdate-def-container p {
   font-family: 'Libre Franklin', sans-serif;
-  letter-spacing: 0.05rem;
+  /* letter-spacing: 0.05rem; */
   padding-left: 3rem;
   padding-right: 3rem;
 }
 
 .playdate-def-problem-text {
   padding-left: 3rem;
-  line-height: 2rem;
+  line-height: 1.7rem;
 }
 
+#describing-challenge-playdate {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  font-family: 'Libre Franklin', sans-serif;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: justify;
+  line-height: 1.7rem;
 
 
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .project-container {
-  margin-left: 1rem;
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-basis: auto;
-  align-items: stretch;
-} */
-
-/* .project-item {
-  width: 25rem;
-  background-color: pink;
-  max-width: 100%;
-  // height: fit-content;
-  margin: 1rem;
-  padding-top: 1rem;
-  
-  padding: 1rem;
-} */
-
-/* .project-item img {
-  width: 100%;
-  // height: 100%;
-  object-fit: cover;
-} */
-
-/* .project-cards .project-card {
-  border-radius: 0;
+#describing-challenge-playdate-heading {
   text-align: center;
-  transition: .5s ease;
-
-} */
-
-/* .project-cards .project-card .card-img {
-  border-radius: 0;
-} */
-
-
-
-/* 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+  font-family: 'DM Serif Display', serif;
+  margin: 5rem;
+  font-size: 3.5rem;
+  color: #001565;
 }
-
-.project-item:hover .overlay {
-  opacity: 1;
-}
-
-.overlay-text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-} */

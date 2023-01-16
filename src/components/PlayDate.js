@@ -45,7 +45,7 @@ export function PlayDate(props) {
                 </MDBRow>
             </div>
 
-            <h1 id="des-process">Design Process</h1>
+            <h1 id="des-process-playdate">Design Process</h1>
 
 
 
@@ -59,11 +59,10 @@ export function PlayDate(props) {
                         Child development experts emphasize the importance of social learning for elementary age children. Being able to interact with other kids of the same age fosters "executive functioning" skills such as impulse control, holding several simultaneous thoughts, and the mental flexibility to problem solve. These skills develop with exposure to peers and having to engage in social interaction. Missing out on social interaction throughout the unexpected closures of schools and other activities have severely limited social development among kids. Learning on a Zoom call cannot nearly encompass the opportunities for social learning that a playground, cafeteria, or classroom can. Even after schools opened up, kids have not been able to interact with each other as much as they have done before.</p>
                 </Col>
             </Row>
-
-            {/* <div>
-                urmom
-            </div> */}
-
+            <div id="describing-challenge-playdate">
+                <h1 id="describing-challenge-playdate-heading">Describing the Challenge</h1>
+                <p>As a team, we knew we wanted to create a mobile application to provide a solution to this issue. However, the apparent problem was that online schooling is an unsuitable platform for social learning. How would we be able to transform an interface that inherently facilitates less face-to-face interaction into an experience that allows kids to practice conversational skills, problem-solving, and coexisting with others?</p>
+            </div>
 
         </div >
     )
