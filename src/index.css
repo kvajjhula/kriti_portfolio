@@ -403,6 +403,7 @@ a:link {
   color: #a270d1;
 }
 
-button {
-  margin-bottom: 2rem;
+.playdate-button-prototype-div {
+  padding-bottom: 3rem;
+
 }
