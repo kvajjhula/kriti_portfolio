@@ -1,4 +1,5 @@
 import React from 'react';
+import { MDBBtn } from 'mdb-react-ui-kit';
 
 export function VRMap(props) {
     return (
