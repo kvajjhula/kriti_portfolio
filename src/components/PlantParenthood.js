@@ -1,4 +1,5 @@
 import React from 'react';
+import { MDBBtn } from 'mdb-react-ui-kit';
 
 export function PlantParenthood(props) {
     return (
@@ -27,6 +28,11 @@ export function PlantParenthood(props) {
                 <path d="M -27 -17 L 27 -17" stroke="#7A504F" strokeWidth="6" />
             </g>
         </svg>
+
+        <h3>Meanwhile, here's a link to the project!</h3>
+            <MDBBtn color="primary" className="mx-auto" href="https://plant-parenthood-b1597.web.app/">
+                View Prototype
+            </MDBBtn>
 
     </div>
     )

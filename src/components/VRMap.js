@@ -28,6 +28,11 @@ export function VRMap(props) {
             </g>
         </svg>
 
+        <h3>Meanwhile, here's a link to the project!</h3>
+            <MDBBtn color="primary" className="mx-auto" href="https://www.foundry10.org/vr-learning-map">
+                View Prototype
+            </MDBBtn>
+
     </div>
     )
 }
