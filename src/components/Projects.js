@@ -12,6 +12,20 @@ export function ProjectsPage(props) {
                 </div>
             </div>
             <MDBRow className='project-cards row-cols-1 row-cols-md-2 g-4 gx-9 my-5 mx-5'>
+            <MDBCol md='3'>
+                    <Link to={"/PlayDate"}>
+                        <MDBCard className="project-card">
+                            <MDBCardImage className="card-img"
+                                src='../img/Playdate.png'
+                                alt='...'
+                                position='top'
+                            />
+                            <MDBCardBody>
+                                <MDBCardTitle>PlayDate</MDBCardTitle>
+                            </MDBCardBody>
+                        </MDBCard>
+                    </Link>
+                </MDBCol>
                 <MDBCol md='3' >
                     <Link to={"/Guppy"}>
                         <MDBCard className="project-card">
@@ -40,20 +54,6 @@ export function ProjectsPage(props) {
                             />
                             <MDBCardBody>
                                 <MDBCardTitle>Plant Parenthood</MDBCardTitle>
-                            </MDBCardBody>
-                        </MDBCard>
-                    </Link>
-                </MDBCol>
-                <MDBCol md='3'>
-                    <Link to={"/PlayDate"}>
-                        <MDBCard className="project-card">
-                            <MDBCardImage className="card-img"
-                                src='../img/Playdate.png'
-                                alt='...'
-                                position='top'
-                            />
-                            <MDBCardBody>
-                                <MDBCardTitle>PlayDate</MDBCardTitle>
                             </MDBCardBody>
                         </MDBCard>
                     </Link>
