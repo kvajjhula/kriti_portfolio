@@ -140,7 +140,7 @@ a:link {
 
 /*  Playdate Page */
 
-.proj-description {
+.playdate-proj-description {
   margin-bottom: 5rem !important;
   text-align: center;
 }
@@ -409,9 +409,8 @@ a:link {
 }
 
 .sleigh {
-  offset-path: path(
-    "M-200 80 L -90 80 Q 60 80 60 -10 A 50 50 0 0 0 -60 -10 Q -60 80 90 80 L 200 80"
-  );
+  offset-path: path("M-200 80 L -90 80 Q 60 80 60 -10 A 50 50 0 0 0 -60 -10 Q -60 80 90 80 L 200 80"
+    );
   animation: roller-coaster 6000ms infinite linear;
 }
 
@@ -419,6 +418,7 @@ a:link {
   0% {
     offset-distance: 0%;
   }
+
   100% {
     offset-distance: 100%;
   }
@@ -427,4 +427,90 @@ a:link {
 .construction {
   text-align: center;
   padding-top: 10rem;
+}
+
+/* VR Learning Map */
+
+.vr-proj-description {
+  margin-top: 3rem;
+}
+
+.vr-intro {
+  margin-bottom: 6rem;
+}
+
+.vr-intro-img {
+  text-align: right;
+}
+
+.vr-intro-img img {
+  max-width: 600px;
+}
+
+/* .vr-intro-text h1 {
+  font-family: 'DM Serif Display', serif;
+  text-align: center;
+} */
+
+.vr-intro-text p {
+  font-family: 'Libre Franklin', sans-serif;
+
+}
+
+.vr-intro-text h2 {
+  padding-bottom: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 25px;
+}
+
+.vr-intro-text {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 2rem;
+  text-align: center;
+}
+
+.vr-intro-text h1 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 3.5rem;
+  color: #00125f;
+  font-family: 'DM Serif Display', serif;
+}
+
+.vr-context {
+  background-color: #5757b5;
+  color: white;
+  padding: 4.5rem;
+  text-align: justify;
+}
+
+.vr-context h2 {
+  font-family: 'DM Serif Display', serif;
+}
+
+.vr-context p {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.vr-result {
+  padding-left: 3rem !important;
+}
+
+#des-process-vr {
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  margin: 5rem;
+  font-size: 3.5rem;
+  color: #e24100;
+}
+
+#vr-map-img img{
+  max-width: 1000px;
+}
+
+#vr-map-img {
+  text-align: center;
 }

@@ -1,39 +1,68 @@
 import React from 'react';
-import { MDBBtn } from 'mdb-react-ui-kit';
+import { MDBRow, MDBCol, MDBContainer, MDBBtn } from 'mdb-react-ui-kit';
 
 export function VRMap(props) {
     return (
-        <div className='construction'>
-        <h1>This page is still under construction!</h1>
+        <div className='vr-proj-description'>
+            <MDBRow className="vr-intro">
+                <MDBCol className="vr-intro-img" md="6">
+                    <img src="../img/VR/foundry-top-img.png" />
+                </MDBCol>
+                <MDBCol md="6">
+                    <div className="vr-intro-text">
+                        <h1>Foundry10 VR Learning Map</h1>
+                        <h2>Individual Internship Project</h2>
+                        <p>The Foundry10 VR Learning Map is an interactive map web plugin that visualizes educational VR immersive experiences in the Seattle metro area as a resource for local educators to introduce VR to students
+                        </p>
+                    </div>
+                </MDBCol>
+            </MDBRow>
 
-        <svg width="400" height="200" viewBox="-200 -100 400 200" fill="none">
-            <path
-                stroke="#E0CEB9"
-                strokeWidth="4"
-                d="
-            M-200 80 L -80 80 Q 80 80 70 -10
-            A 70 70 0 0 0 -70 -10
-            Q -80 80 80 80 L 200 80"
-            />
+            <MDBRow className="vr-context">
+                <MDBCol md='8'>
+                    <div className='pb-3'>
+                        <h2>Context</h2>
+                        <p>The VR Learning Map was my primary project while working as an education technology intern at education research organization Foundry10 during the summer and fall of 2022. I worked on the edtech team which engaged in the research, programming and collaborative philanthropy across many different kinds of technologies used in education. I did research with VR hardware, software and emerging technologies like XR and adaptive learning. For this project, I worked primarily with educational VR.
+                            {/* The project goal was open ended towards the beginning and I was given a lot of creative freedom with the solutions and resources I could design.  */}
+                            Although I completed this project individually, I worked alongside another intern to do preliminary research into the problem space and identify what kind of products we wanted to design.</p>
+                    </div>
+                    <MDBRow>
+                        <MDBCol md='6'>
+                            <h2>Type/Timeline</h2>
+                            <p>Product Design<br/>Web Design<br/>7 months</p>
+                        </MDBCol>
+                        <MDBCol md='6'>
+                            <h2>Roles</h2>
+                            <p>User Research, Interface Design, Data Visualization, UX Design</p>
+                        </MDBCol>
+                    </MDBRow>
+                </MDBCol>
+                <MDBCol md='4' className="vr-result">
+                    <h2>Result</h2>
+                    <p>By the end of 7 months I designed and helped develop an interactive map web plugin with Figma and Tableau that visualizes educational VR immersive experiences in Seattle as a resource for local educators to introduce VR to students.</p>
+                </MDBCol>
+            </MDBRow>
 
-            <g className="sleigh">
-                <path
-                    d="
-                    M -30 -2 L 30 -2 A 10 10 0 0 0 30 -22
-                    M -20 -2 L -20 -17
-                    M 20 -2 L 20 -17"
-                    stroke="#AF6455"
-                    strokeWidth="5"
-                />
-                <path d="M -27 -17 L 27 -17" stroke="#7A504F" strokeWidth="6" />
-            </g>
-        </svg>
+            <h1 id="des-process-vr">Design Process</h1>
 
-        <h3>Meanwhile, here's a link to the project!</h3>
-            <MDBBtn color="primary" className="mx-auto" href="https://www.foundry10.org/vr-learning-map">
+            <MDBRow>
+                <div id="vr-map-img">
+                    <img src="../img/VR/vr-map-img.png" />
+                </div>
+            </MDBRow>
+
+
+
+
+
+
+
+
+
+            {/* <MDBBtn color="primary" className="mx-auto" href="https://www.foundry10.org/vr-learning-map">
                 View Prototype
-            </MDBBtn>
+            </MDBBtn> */}
 
-    </div>
+        </div>
     )
 }
