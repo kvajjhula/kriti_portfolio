@@ -22,14 +22,14 @@ export function VRMap(props) {
                 <MDBCol md='8'>
                     <div className='pb-3'>
                         <h2>Context</h2>
-                        <p>The VR Learning Map was my primary project while working as an education technology intern at education research organization Foundry10 during the summer and fall of 2022. I worked on the edtech team which engaged in the research, programming and collaborative philanthropy across many different kinds of technologies used in education. I did research with VR hardware, software and emerging technologies like XR and adaptive learning. For this project, I worked primarily with educational VR.
-                            {/* The project goal was open ended towards the beginning and I was given a lot of creative freedom with the solutions and resources I could design.  */}
-                            Although I completed this project individually, I worked alongside another intern to do preliminary research into the problem space and identify what kind of products we wanted to design.</p>
+                        <p>The VR Learning Map was my primary project while working as an education technology intern at education research organization Foundry10 during the summer and fall of 2022. I worked on the edtech team which engaged in the research, programming and collaborative philanthropy across many different kinds of technologies used in education. I did research with VR hardware, software and emerging technologies like XR and adaptive learning. For this project, I worked primarily with educational VR. Although I completed this project individually, I worked alongside another intern to do preliminary research into the problem space.</p>
+
+                        {/* The project goal was open ended towards the beginning and I was given a lot of creative freedom with the solutions and resources I could design.  */}
                     </div>
                     <MDBRow>
                         <MDBCol md='6'>
                             <h2>Type/Timeline</h2>
-                            <p>Product Design<br/>Web Design<br/>7 months</p>
+                            <p>Product Design<br />Web Design<br />7 months</p>
                         </MDBCol>
                         <MDBCol md='6'>
                             <h2>Roles</h2>
@@ -50,6 +50,13 @@ export function VRMap(props) {
                     <img src="../img/VR/vr-map-img.png" />
                 </div>
             </MDBRow>
+
+                <div id="problem-def-vr">
+                    <h2>Defining the Problem</h2>
+                    <p>Because the pandemic caused such a large shift in classroom learning in recent years, we wanted to identify any new trends in VR and education and figure out how to tackle the existing gaps in VR learning.</p>
+                </div>
+
+
 
 
 

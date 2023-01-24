@@ -33,11 +33,8 @@ export function PlayDate(props) {
                             </MDBCol>
                             <MDBRow>
                                 <MDBCol className="group-members">
-                                    <h3>Group Members</h3>
-                                    <li>Kriti Vajjhula</li>
-                                    <li>Vega Jethani</li>
-                                    <li>Esha Bantwal</li>
-                                    <li>Sean Guevarra</li>
+                                    <h3>Team</h3>
+                                    Kriti Vajjhula, Vega Jethani, Esha Bantwal, Sean Guevarra
                                 </MDBCol>
                             </MDBRow>
                         </MDBRow>
