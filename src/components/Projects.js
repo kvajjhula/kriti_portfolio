@@ -11,8 +11,8 @@ export function ProjectsPage(props) {
                     <h1 className="">Projects</h1>
                 </div>
             </div>
-            <MDBRow className='project-cards row-cols-1 row-cols-md-2 g-4 gx-9 my-5 mx-5'>
-            <MDBCol md='3'>
+            <MDBRow className='project-cards row-cols-1 row-cols-md-2 g-4 my-5 mx-3'>
+                <MDBCol md='3'>
                     <Link to={"/PlayDate"}>
                         <MDBCard className="project-card">
                             <MDBCardImage className="card-img"

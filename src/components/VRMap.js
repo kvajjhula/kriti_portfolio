@@ -45,20 +45,67 @@ export function VRMap(props) {
 
             <h1 id="des-process-vr">Design Process</h1>
 
-            <MDBRow>
-                <div id="vr-map-img">
-                    <img src="../img/VR/vr-map-img.png" />
-                </div>
-            </MDBRow>
+            <div id="vr-map-img">
+                <img src="../img/VR/vr-map-img.png" />
+            </div>
 
-                <div id="problem-def-vr">
-                    <h2>Defining the Problem</h2>
-                    <p>Because the pandemic caused such a large shift in classroom learning in recent years, we wanted to identify any new trends in VR and education and figure out how to tackle the existing gaps in VR learning.</p>
-                </div>
+            <div className="des-process-description">
+                <h2>Defining the Problem</h2>
+                <p>Because the pandemic caused such a large shift in classroom learning in recent years, we wanted to identify any new trends in VR and education and figure out how to tackle the existing gaps in VR learning.</p>
+            </div>
+
+            <div className="des-process-description">
+                <h2>Collecting Information</h2>
+                <p>We started with studying the company’s white papers, formal research papers, as well as foundry10 reports from implementing virtual reality in classrooms across the country in recent years. In addition, I coded student and teacher interview transcripts from past studies and looked for common themes in the responses. In addition, to become more familiar with the VR/AR/XR space, I tested a variety of softwares and headsets. We worked on creating software reviews for educators to reference and evaluate whether or not they would be useful in a classroom environment.
+                </p>
+            </div>
+
+            <div className="des-process-description">
+                <h2>Empathize</h2>
+                <p>Based on the research into company research archives, my colleague and I identified the target audience and their main pain points.</p>
+                <img src="../img/VR/pain-points.jpg" />
+            </div>
+
+            <div className="des-process-description">
+                <h2>Outlining Challenges and Goals</h2>
+                <p>After preliminary research, I saw that the most commonly reported way (by students and teachers) to understand how to use VR and get the most out of it is by increasing the amount of time exploring it.  However, in a classroom setting, students must share headsets, meaning less time spent getting familiar with all of its features. Increasing the amount of headsets also gets pricey. Therefore, one of the goals of this project was to find a way to reduce the cost barrier to try VR while increasing subject area exposure in VR to get students familiar with the different ways that it can be used.
+                    <br />
+                    <br />
+                    Another key challenge reported by teachers was that school district IT departments were often apprehensive about providing support for new technologies. Teachers that use VR often have to take out extra time to set up and use their devices, with little external tech support. As a result, another key goal that I outlined was to improve the learning curve for both teachers and students to navigate VR and become more familiar with it before actually investing large amounts of time and money.
+                </p>
+            </div>
 
 
+            <MDBContainer className='goals-container-vr'>
+                <h1>Goals</h1>
+                <MDBRow>
+                    <MDBCol md="4">
+                        <img src="../img/VR/icon-1.png" />
+                        <h2>Encourage VR Subject Exploration</h2>
+                    </MDBCol>
+                    <MDBCol md="4">
+                        <img src="../img/VR/icon-2.png" />
+                        <h2>Low-Cost Introduction to VR</h2>
+                    </MDBCol>
+                    <MDBCol md="4">
+                        <img src="../img/VR/icon-3.png" />
+                        <h2>Improve Learning Curve</h2>
+                    </MDBCol>
+                </MDBRow>
+            </MDBContainer>
 
+            <div className="des-process-description">
+                <h2>Ideation</h2>
+                <p>During the brainstorming stage, a lot of my basic designs depicted a resource, or a product that was informational and prompted the target audience to go out and do their own exploration with VR after being given guidance. Since many teachers and educators reference the foundry10 website for learning resources, I wanted to design a VR learning resource to add to the website. I wanted to address the goals I outlined by creating a way for students, educators, and parents to try out VR near them.
+                </p>
+            </div>
 
+            <div className="des-process-description">
+                <h2>Determining the Features</h2>
+                <p>To address the outlined goals, I wanted to design a solution that promotes VR exploration outside of school so that students would be able to engage in a variety of VR activities. After a few iterations, I settled on the central feature being a map that shows VR exhibits in the Seattle area. After some preliminary research, I found local exhibits ranging from art, astronomy, marine science, as well as VR gaming centers that could demonstrate the wide range of subjects that are supported by the technology. 
+
+                </p>
+            </div>
 
 
 

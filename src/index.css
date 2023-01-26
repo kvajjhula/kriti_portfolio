@@ -481,7 +481,7 @@ a:link {
 }
 
 .vr-context {
-  background-color: #5757b5;
+  background-color: #a270d1;
   color: white;
   padding: 4.5rem;
   text-align: justify;
@@ -504,7 +504,7 @@ a:link {
   font-family: 'DM Serif Display', serif;
   margin: 5rem;
   font-size: 3.5rem;
-  color: #e24100;
+  color: #00125f;
 }
 
 #vr-map-img img {
@@ -515,22 +515,46 @@ a:link {
   text-align: center;
 }
 
-#problem-def-vr {
+.des-process-description {
   margin-left: 14rem;
   margin-right: 14rem;
-  margin-top: 5rem;
+  margin-top: 4rem;
   font-family: 'Libre Franklin', sans-serif;
   padding-left: 3rem;
   padding-right: 3rem;
   text-align: justify;
   line-height: 1.7rem;
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
 }
 
-#problem-def-vr h2 {
+.des-process-description h2 {
   font-family: 'DM Serif Display', serif;
   color: #001565;
 }
 
+.des-process-description img {
+  max-width: 900px;
+  text-align: center;
+  padding: 2rem;
+}
 
+.goals-container-vr {
+  text-align: center;
+  padding-left: 11rem !important;
+  padding-right: 11rem !important;
+}
 
+.goals-container-vr img {
+  max-width: 170px;
+  margin: 2.3rem;
+}
+
+.goals-container-vr h1 {
+  font-family: 'DM Serif Display', serif;
+  color: #001565;
+}
+
+.goals-container-vr h2 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1.3rem;
+}
