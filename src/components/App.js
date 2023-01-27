@@ -7,6 +7,7 @@ import { GuppyProject } from './Guppy';
 import { VRMap } from './VRMap.js';
 import { PlantParenthood } from './PlantParenthood.js';
 import { PlayDate } from './PlayDate.js';
+import { VCD } from './VCD.js'
 
 
 export default function App(props) {
@@ -23,6 +24,7 @@ export default function App(props) {
           <Route path="/PlantParenthood" element={<PlantParenthood/>} />
           <Route path="/PlayDate" element={<PlayDate/>} />
           <Route path="/VRMap" element={<VRMap/>} />
+          <Route path="/VCD" element={<VCD/>} />
         </Routes>
       </div>
     </div>

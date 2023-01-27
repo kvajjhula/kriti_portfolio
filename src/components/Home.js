@@ -1,3 +1,4 @@
+import { MDBFooter } from 'mdb-react-ui-kit';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
@@ -21,6 +22,12 @@ export function HomePage(props) {
                     </Link>
                 </div>
             </div >
+
+            <MDBFooter>
+                <div className='text-center p-3'>
+                    <p>Designed and developed with love by Kriti Vajjhula</p>
+                </div>
+            </MDBFooter>
         </main>
     )
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MDBCard, MDBRipple, MDBCardImage, MDBCardBody, MDBCardTitle, MDBRow, MDBCol } from 'mdb-react-ui-kit';
+import { MDBCard, MDBCardImage, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 
 export function ProjectsPage(props) {
@@ -52,9 +52,23 @@ export function ProjectsPage(props) {
                                 position='top'
                             />
                         </MDBCard>
-                        <h2>Plant Parenthood | Front-End Development (HTMl/CSS/JS React)</h2>
+                        <h2>Plant Parenthood | Front-End Development (HTML/CSS/JS + React)</h2>
                     </Link>
                 </MDBCol>
+                <MDBCol md="6">
+                <Link to={"/VCD"}>
+                        <MDBCard className="project-card">
+                            <MDBCardImage className="card-img"
+                                src="../img/vcd-proj.png"
+                                alt='...'
+                                position='top'
+                            />
+                        </MDBCard>
+                        <h2>New York Times Magazine Redesign | Visual Design</h2>
+                    </Link>
+                </MDBCol>
+            </MDBRow>
+            <MDBRow className='project-cards row-cols-1 row-cols-md-2 g-4 my-5 mx-3'>
                 <MDBCol md='6' >
                     <Link to={"/Guppy"}>
                         <MDBCard className="project-card">
