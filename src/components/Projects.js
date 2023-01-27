@@ -18,15 +18,9 @@ export function ProjectsPage(props) {
             <MDBRow className='project-cards row-cols-1 row-cols-md-2 g-4 my-5 mx-3'>
                 <MDBCol md='6'>
                     <Link to={"/PlayDate"}>
-                        <MDBCard className="project-card" style={{
-                            backgroundColor: 'white',
-                            transition: '0.3s ease',
-                            ':hover': {
-                                backgroundColor: 'red'
-                            }
-                        }}>
+                        <MDBCard className="project-card">
                             <MDBCardImage className="card-img"
-                                src='../img/playdate-proj.png'
+                                src="../img/playdate-proj.png"
                                 alt='...'
                                 position='top'
                             />
@@ -41,13 +35,6 @@ export function ProjectsPage(props) {
                                 alt='...'
                                 position='top'
                             />
-                            <div className="mask">
-                                <div className="d-flex justify-content-center align-items-center h-100">
-                                </div>
-                            </div>
-                            {/* <MDBCardBody>
-                                <MDBCardTitle className="card-title">Guppy</MDBCardTitle>
-                            </MDBCardBody> */}
                         </MDBCard>
                     </Link>
                 </MDBCol>
@@ -58,13 +45,10 @@ export function ProjectsPage(props) {
                     <Link to={"/PlantParenthood"}>
                         <MDBCard className="project-card">
                             <MDBCardImage className="card-img"
-                                src="../img/PlantParenthood.png"
+                                src="../img/pp.png"
                                 alt='...'
                                 position='top'
                             />
-                            <MDBCardBody>
-                                <MDBCardTitle>Plant Parenthood</MDBCardTitle>
-                            </MDBCardBody>
                         </MDBCard>
                     </Link>
                 </MDBCol>
@@ -72,13 +56,10 @@ export function ProjectsPage(props) {
                     <Link to={"/VRMap"}>
                         <MDBCard className="project-card">
                             <MDBCardImage className="card-img"
-                                src='../img/foundry10.png'
+                                src='../img/vr-map.png'
                                 alt='...'
                                 position='top'
                             />
-                            <MDBCardBody>
-                                <MDBCardTitle>Foundry10 VR Learning Map</MDBCardTitle>
-                            </MDBCardBody>
                         </MDBCard>
                     </Link>
                 </MDBCol>

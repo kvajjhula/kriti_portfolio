@@ -123,6 +123,11 @@ html {
   padding-bottom: 5rem;
 }
 
+.project-card-hover:hover {
+  background-color: lightgray;
+  transition: 0.3s ease;
+}
+
 .project-cards {
   margin: 5rem;
 }
