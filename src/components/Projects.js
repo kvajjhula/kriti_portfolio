@@ -25,17 +25,19 @@ export function ProjectsPage(props) {
                                 position='top'
                             />
                         </MDBCard>
+                        <h2>Playdate | UX Design</h2>
                     </Link>
                 </MDBCol>
-                <MDBCol md='6' >
-                    <Link to={"/Guppy"}>
+                <MDBCol md=''>
+                    <Link to={"/VRMap"}>
                         <MDBCard className="project-card">
                             <MDBCardImage className="card-img"
-                                src="../img/guppy-project.png"
+                                src='../img/vr-map.png'
                                 alt='...'
                                 position='top'
                             />
                         </MDBCard>
+                        <h2>VR Learning Map | Product Design</h2>
                     </Link>
                 </MDBCol>
             </MDBRow>
@@ -50,17 +52,19 @@ export function ProjectsPage(props) {
                                 position='top'
                             />
                         </MDBCard>
+                        <h2>Plant Parenthood | Front-End Development (HTMl/CSS/JS React)</h2>
                     </Link>
                 </MDBCol>
-                <MDBCol md=''>
-                    <Link to={"/VRMap"}>
+                <MDBCol md='6' >
+                    <Link to={"/Guppy"}>
                         <MDBCard className="project-card">
                             <MDBCardImage className="card-img"
-                                src='../img/vr-map.png'
+                                src="../img/guppy-project.png"
                                 alt='...'
                                 position='top'
                             />
                         </MDBCard>
+                        <h2>Guppy | UX Design</h2>
                     </Link>
                 </MDBCol>
             </MDBRow>

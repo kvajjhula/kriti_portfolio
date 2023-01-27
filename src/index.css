@@ -123,13 +123,16 @@ html {
   padding-bottom: 5rem;
 }
 
-.project-card-hover:hover {
-  background-color: lightgray;
-  transition: 0.3s ease;
-}
-
 .project-cards {
   margin: 5rem;
+}
+
+.project-cards h2 {
+  text-align: center;
+  color: #00125f;
+  font-family: 'Libre Franklin', sans-serif;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .project-cards .project-card {
