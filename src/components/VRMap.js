@@ -103,7 +103,6 @@ export function VRMap(props) {
             <div className="des-process-description">
                 <h2>Determining the Features</h2>
                 <p>To address the outlined goals, I wanted to design a solution that promotes VR exploration outside of school so that students would be able to engage in a variety of VR activities. After a few iterations, I settled on the central feature being a map that shows VR exhibits in the Seattle area. After some preliminary research, I found local exhibits ranging from art, astronomy, marine science, as well as VR gaming centers that could demonstrate the wide range of subjects that are supported by the technology. 
-
                 </p>
             </div>
 

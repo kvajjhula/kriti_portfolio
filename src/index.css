@@ -95,8 +95,8 @@ html {
 /* Projects Page */
 
 .project-title-container {
-  background: rgb(177, 119, 213);
-  background: linear-gradient(90deg, rgba(177, 119, 213, 1) 0%, rgba(251, 217, 240, 1) 100%);
+  /* background: rgb(177, 119, 213); */
+  /* background: linear-gradient(90deg, rgba(177, 119, 213, 1) 0%, rgba(251, 217, 240, 1) 100%); */
   font-family: 'Libre Franklin', sans-serif;
   color: #001565;
   width: 55vw;
@@ -109,16 +109,26 @@ html {
   margin-top: 5rem;
 }
 
-.project-title-container h1 {
-  font-family: 'DM Serif Display', 'serif';
+.project-title{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 7rem !important;
+  color: #001565;
+  /* padding: 10px; */
+  margin-top: 5rem;
+  text-align: left;
+  margin-left: 40rem;
 }
 
 .project-page {
   padding-bottom: 5rem;
 }
 
+.project-cards {
+  margin: 5rem;
+}
+
 .project-cards .project-card {
-  border-radius: 0;
+  border-radius: 60;
 }
 
 .project-cards .project-card:hover {
@@ -126,7 +136,7 @@ html {
 }
 
 .project-cards .project-card img {
-  border-radius: 0;
+  border-radius: 60;
 }
 
 .card-title {
