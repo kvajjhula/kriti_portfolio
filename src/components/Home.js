@@ -25,7 +25,7 @@ export function HomePage(props) {
 
             <MDBFooter>
                 <div className='text-center p-3'>
-                    <p>Designed and developed with love by Kriti Vajjhula</p>
+                    <p>Designed and developed with ♥ by Kriti Vajjhula</p>
                 </div>
             </MDBFooter>
         </main>

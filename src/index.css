@@ -115,8 +115,7 @@ html {
   color: #001565;
   /* padding: 10px; */
   margin-top: 5rem;
-  text-align: left;
-  margin-left: 40rem;
+  text-align: center;
 }
 
 .project-page {
@@ -135,7 +134,7 @@ html {
   font-size: 1.2rem;
 }
 
-.project-cards .project-card {
+/* .project-cards .project-card {
   border-radius: 60;
 }
 
@@ -145,7 +144,7 @@ html {
 
 .project-cards .project-card img {
   border-radius: 60;
-}
+} */
 
 .card-title {
   color: black;
@@ -154,6 +153,17 @@ html {
 
 a:link {
   text-decoration: none;
+}
+
+.card-img {
+  transition: transform .6s; /* Animation */
+  margin: 0 auto;
+  /* opacity: 0.92; */
+}
+
+.card-img:hover {
+  transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  /* opacity: 1; */
 }
 
 /*  Playdate Page */
