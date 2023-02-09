@@ -107,7 +107,7 @@ html {
   margin-top: 5rem;
 }
 
-.project-title{
+.project-title {
   font-family: 'Libre Franklin', sans-serif;
   font-size: 7rem !important;
   color: #001565;
@@ -141,7 +141,7 @@ a:link {
 }
 
 .card-img {
-  transition: transform .6s; 
+  transition: transform .6s;
   margin: 0 auto;
 }
 
@@ -456,6 +456,8 @@ a:link {
 
 .vr-intro-img img {
   max-width: 600px;
+  -webkit-filter: drop-shadow(5px 5px 5px #666666);
+  filter: drop-shadow(5px 5px 5px #666666);
 }
 
 .vr-intro-text p {
@@ -521,6 +523,10 @@ a:link {
   text-align: center;
 }
 
+#empathize-img {
+  text-align: center;
+}
+
 .des-process-description {
   margin-left: 14rem;
   margin-right: 14rem;
@@ -563,4 +569,44 @@ a:link {
 .goals-container-vr h2 {
   font-family: 'Libre Franklin', sans-serif;
   font-size: 1.3rem;
+}
+
+@media (max-width: 1200px) {
+
+  /* VR Page */
+  .vr-intro {
+    flex-direction: column;
+  }
+
+  .vr-intro img {
+    max-width: 400px;
+  }
+
+  #vr-map-img img {
+    max-width: 600px;
+  }
+
+  #empathize-img img {
+    max-width: 650px;
+  }
+
+  .des-process-description {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 4rem;
+    padding-left: 1;
+    padding-right: 1;
+    margin-bottom: 4rem;
+  }
+
+  /* Playdate Page */
+
+  .playdate-proj-description {
+    flex-direction: column;
+  }
+
+  .vr-intro img {
+    max-width: 500px;
+  }
+
 }
