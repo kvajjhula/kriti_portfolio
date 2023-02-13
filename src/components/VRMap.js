@@ -46,7 +46,8 @@ export function VRMap(props) {
             <h1 id="des-process-vr">Design Process</h1>
 
             <div id="vr-map-img">
-                <img src="../img/VR/vr-map-img.png" />
+                {/* <img src="../img/VR/vr-map-img.png" /> */}
+                <img src="../img/VR/vr-demo.gif" />
             </div>
 
             <div className="des-process-description">

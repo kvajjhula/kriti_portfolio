@@ -516,7 +516,7 @@ a:link {
 }
 
 #vr-map-img img {
-  max-width: 900px;
+  max-width: 700px;
 }
 
 #vr-map-img {
@@ -569,6 +569,67 @@ a:link {
 .goals-container-vr h2 {
   font-family: 'Libre Franklin', sans-serif;
   font-size: 1.3rem;
+}
+
+
+
+/* VCD Page */
+
+
+.vcd-intro {
+  margin-bottom: 6rem;
+  padding-top: 4rem;
+}
+
+.vcd-intro-img {
+  text-align: right;
+}
+
+.vcd-intro-img img {
+  max-width: 475px;
+  -webkit-filter: drop-shadow(5px 5px 5px #666666);
+  filter: drop-shadow(5px 5px 5px #666666);
+}
+
+.vcd-intro-text p {
+  font-family: 'Libre Franklin', sans-serif;
+
+}
+
+.vcd-intro-text h2 {
+  padding-bottom: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 25px;
+}
+
+.vcd-intro-text {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 2rem;
+  text-align: center;
+}
+
+.vcd-intro-text h1 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 3.5rem;
+  color: #00125f;
+  font-family: 'DM Serif Display', serif;
+}
+
+.vcd-design-description {
+  padding: 6rem;
+}
+
+.vcd-design-description h2 {
+  font-family: 'DM Serif Display', serif;
+  color: #00125f;
+}
+
+.vcd-design-description p {
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 @media (max-width: 1200px) {
