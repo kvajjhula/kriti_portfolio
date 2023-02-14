@@ -109,6 +109,12 @@ export function VRMap(props) {
                 </p>
             </div>
 
+            <div className="des-process-description">
+                <h2>Final Solution</h2>
+                <p> 
+                </p>
+            </div>
+
 
 
 

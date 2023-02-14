@@ -144,7 +144,7 @@ export function PlayDate(props) {
 
             <div id="final-sol-playdate">
                 <h1 id="final-sol-playdate-heading">Final Components</h1>
-                <p>As a team, we knew we wanted to create a mobile application to provide a solution to this issue. However, the apparent problem was that online schooling is an unsuitable platform for social learning. How would we be able to transform an interface that inherently facilitates less face-to-face interaction into an experience that allows kids to practice conversational skills, problem-solving, and coexisting with others?</p>
+                <p>PlayDate has two main components that allow students to engage with the learning content and interact with their peers; “Practice on Your Own” and “Connect with your Class”. The “Practice on Your Own” allows students to practice cues, responses, and facial expressions and engage in voice incorporated tasks/games individually, earning points as they go. The Connect with your Class allows teachers to monitor student’ live interactions via discussion posts.</p>
                 <div className="d-flex align-items-center playdate-button-prototype-div">
                     <MDBBtn color="primary" className="mx-auto" href="https://www.figma.com/proto/Ml8naDrZoGdohDDoa2nAtc/WINFO-Hack?node-id=0%3A1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=9%3A2">
                         View Prototype
