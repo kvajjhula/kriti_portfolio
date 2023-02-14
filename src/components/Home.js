@@ -1,4 +1,4 @@
-import { MDBFooter } from 'mdb-react-ui-kit';
+import { MDBFooter, MDBBtn } from 'mdb-react-ui-kit';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
@@ -19,6 +19,7 @@ export function HomePage(props) {
                     </div>
                     <Link to="/Projects">
                         <Button variant="primary">See My Work!</Button>
+
                     </Link>
                 </div>
             </div >

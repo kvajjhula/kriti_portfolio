@@ -32,7 +32,24 @@ export function VCD(props) {
                 <MDBCol md="4">
                     <h2>Design Requirements</h2>
                     <p>
-                    The design was required to have dynamic asymmetrical composition, be visually and conceptually unique, display significant formal contrasts, and contain an image and type that is appropriate to the tone and voice of the magazine's content.</p>
+                        The design was required to have dynamic asymmetrical composition, be visually and conceptually unique, display significant formal contrasts, and contain an image and type that is appropriate to the tone and voice of the magazine's content.</p>
+                </MDBCol>
+            </MDBRow>
+
+            <MDBRow className='vcd-design-description-themes'>
+                <MDBCol md='4' id="vcd-og-cover-img">
+                    <img src='../img/vcd/og-cover.png' />
+                </MDBCol>
+
+                <MDBCol id="vcd-og-cover-right" md='8'>
+                    <h2>Themes and Content</h2>
+                    <p>The several articles of this issue touch upon a few themes regarding what the internet was hoped to be in the early days of its existence versus what it actually is now. Social media companies in their early days were touted to be all-American, with the hopes of accomplishing a social mission and connecting the world to bridge social gaps.
+                    <br/>
+                    <br/>
+                    Now there is a shift in attitude, erecting a distrustful public view of tech companies and deep suspicion of their causes. The view is that tech companies have become superpowers that compete with one another yet become increasingly independent and rely on each other to continue their growth.
+                    <br/>
+                    <br/>
+                    The articles covered the internet as a surveillance and data harvesting tool. It also covered the implementation of pay walls over time for a better online experience and the contrasting experiences of a clean internet and a free internet. The culture of online fandoms and how the internet aids in shaping identity crises in individuals were also a main topic of discussion. </p>
                 </MDBCol>
             </MDBRow>
         </div>

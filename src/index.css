@@ -6,6 +6,10 @@ html {
   height: 100%;
 }
 
+
+/* Buttons */
+
+
 /* Navbar */
 
 .navbar-brand {
@@ -622,17 +626,42 @@ a:link {
 }
 
 .vcd-design-description {
-  padding: 6rem;
+  padding-top: 6rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
-.vcd-design-description h2 {
+.vcd-design-description h2, .vcd-design-description-themes h2 {
   font-family: 'DM Serif Display', serif;
+  text-align: center;
   color: #00125f;
 }
 
-.vcd-design-description p {
+.vcd-design-description p, .vcd-design-description-themes p {
   font-family: 'Libre Franklin', sans-serif;
+  text-align: justify;
 }
+
+.vcd-design-description-themes {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 6rem;
+}
+
+#vcd-og-cover-img img {
+  max-width: 400px;
+}
+
+#vcd-og-cover-img {
+  padding-right: 3rem;
+}
+
+#vcd-og-cover-right {
+  padding-left: 4rem;
+  padding-right: 4rem;
+
+}
+
 
 @media (max-width: 1200px) {
 

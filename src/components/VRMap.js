@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBRow, MDBCol, MDBContainer } from 'mdb-react-ui-kit';
+import { MDBRow, MDBCol, MDBBtn, MDBContainer } from 'mdb-react-ui-kit';
 
 export function VRMap(props) {
     return (
@@ -111,8 +111,8 @@ export function VRMap(props) {
 
             <div className="des-process-description">
                 <h2>Final Solution</h2>
-                <p> 
-                </p>
+                {/* <p> After creating the final Figma prototype in Figma
+                </p> */}
             </div>
 
 
@@ -120,11 +120,14 @@ export function VRMap(props) {
 
 
 
-
-            {/* <MDBBtn color="primary" className="mx-auto" href="https://www.foundry10.org/vr-learning-map">
-                View Prototype
-            </MDBBtn> */}
-
+            <div className='d-flex'>
+                <MDBBtn color="primary" className="mx-auto" href="https://www.foundry10.org/vr-learning-map">
+                    View Live Site!
+                </MDBBtn>
+                <MDBBtn color="primary" className="mx-auto" href="https://www.figma.com/proto/e5POjo1aNSN6MUuRV25p4f/Final-Version?scaling=min-zoom&page-id=0%3A1&node-id=2%3A2&starting-point-node-id=2%3A2">
+                    View Prototype!
+                </MDBBtn>
+            </div>
         </div>
     )
 }
