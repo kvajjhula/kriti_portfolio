@@ -112,7 +112,7 @@ html {
 }
 
 .project-title {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 7rem !important;
   color: #001565;
   margin-top: 5rem;
@@ -631,13 +631,15 @@ a:link {
   padding-right: 6rem;
 }
 
-.vcd-design-description h2, .vcd-design-description-themes h2 {
+.vcd-design-description h2,
+.vcd-design-description-themes h2 {
   font-family: 'DM Serif Display', serif;
   text-align: center;
   color: #00125f;
 }
 
-.vcd-design-description p, .vcd-design-description-themes p {
+.vcd-design-description p,
+.vcd-design-description-themes p {
   font-family: 'Libre Franklin', sans-serif;
   text-align: justify;
 }
@@ -659,9 +661,14 @@ a:link {
 #vcd-og-cover-right {
   padding-left: 4rem;
   padding-right: 4rem;
-
 }
 
+.vcd-design-description {
+  background-color: #a270d1;
+  color: white;
+  padding: 4.5rem;
+  text-align: justify;
+}
 
 @media (max-width: 1200px) {
 
