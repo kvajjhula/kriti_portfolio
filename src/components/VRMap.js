@@ -6,7 +6,9 @@ export function VRMap(props) {
         <div className='vr-proj-description'>
             <MDBRow className="vr-intro">
                 <MDBCol className="vr-intro-img" md="6">
+                    <a href='https://www.foundry10.org/vr-learning-map'>
                     <img src="../img/VR/figmascreen.png" />
+                    </a>
                 </MDBCol>
                 <MDBCol md="6">
                     <div className="vr-intro-text">
@@ -35,12 +37,14 @@ export function VRMap(props) {
                             <h2>Roles</h2>
                             <p>User Research, Interface Design, Data Visualization, UX Design</p>
                         </MDBCol>
+
                     </MDBRow>
                 </MDBCol>
                 <MDBCol md='4' className="vr-result">
                     <h2>Result</h2>
                     <p>By the end of 7 months I designed and helped develop an interactive map web plugin with Figma and Tableau that visualizes educational VR immersive experiences in Seattle as a resource for local educators to introduce VR to students.</p>
                 </MDBCol>
+              
             </MDBRow>
 
             <h1 id="des-process-vr">Design Process</h1>

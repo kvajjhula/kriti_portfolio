@@ -5,6 +5,10 @@ import Navbar from 'react-bootstrap/Navbar';
 
 
 export function NavBar(props) {
+    const openPdf = () => {
+        window.open('../media/Resume.pdf', '_blank');
+      };
+
     return (
         <>
             <Navbar variant="light" expand="lg">
@@ -13,7 +17,7 @@ export function NavBar(props) {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="nav-right-container ms-auto">
                         <Nav.Link as={Link} to='/Projects' >Projects</Nav.Link>
-                        <Nav.Link>CV</Nav.Link>
+                        <Nav.Link onClick={openPdf}>CV</Nav.Link>
                         <Nav.Link>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

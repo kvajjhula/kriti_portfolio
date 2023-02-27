@@ -40,7 +40,8 @@ export function ProjectsPage(props) {
 
                 <MDBRow className='project-cards row-cols-1 row-cols-md-2 g-4 my-5 mx-3'>
                     <MDBCol md='6'>
-                        <Link to={"/PlantParenthood"}>
+                        {/* <Link to={"/PlantParenthood"}> */}
+                        <a href = 'https://plant-parenthood-b1597.web.app/'>
                             <div className='card-img'>
                                 <img className="img-fluid hover-shadow rounded-4"
                                     src="../img/pp.png"
@@ -49,7 +50,8 @@ export function ProjectsPage(props) {
                                 />
                                 <h2>Plant Parenthood | Front-End Development (HTML/CSS/JS + React)</h2>
                             </div>
-                        </Link>
+                        </a>
+                        {/* </Link> */}
                     </MDBCol>
                     <MDBCol md="6">
                         <Link to={"/VCD"}>
