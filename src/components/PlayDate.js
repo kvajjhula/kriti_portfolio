@@ -42,51 +42,47 @@ export function PlayDate(props) {
                 </MDBRow>
             </div>
 
-            <h1 id="des-process-playdate">Design Process</h1>
+            <h1 className="des-process">Design Process</h1>
+
+
+            <MDBRow className='playdate-carousel'>
+                <img src='../img/Playdate/gifmock.gif' title='carousel-1' />
+            </MDBRow>
 
 
 
-            <Row className="playdate-def-container">
-                <Col xs={6} className="playdate-def-problem-img">
-                    <img src="../img/Playdate/defining_problem.jpg" alt="your-image-description" />
-                </Col>
-                <Col className="playdate-def-problem-text" xs={6}>
-                    <h2>Defining The Problem: COVID-19 and Social Development</h2>
-                    <p>
-                        Child development experts emphasize the importance of social learning for elementary age children. Being able to interact with other kids of the same age fosters "executive functioning" skills such as impulse control, holding several simultaneous thoughts, and the mental flexibility to problem solve. These skills develop with exposure to peers and having to engage in social interaction. Missing out on social interaction throughout the unexpected closures of schools and other activities have severely limited social development among kids. Learning on a Zoom call cannot nearly encompass the opportunities for social learning that a playground, cafeteria, or classroom can. Even after schools opened up, kids have not been able to interact with each other as much as they have done before.</p>
-                </Col>
-            </Row>
-            <div id="describing-challenge-playdate">
-                <h1 id="describing-challenge-playdate-heading">Describing the Challenge</h1>
+            <div className="des-process-description">
+                <h2>Defining The Problem</h2>
+                <p>COVID-19 and Social Development: Child development experts emphasize the importance of social learning for elementary age children. Being able to interact with other kids of the same age fosters "executive functioning" skills such as impulse control, holding several simultaneous thoughts, and the mental flexibility to problem solve. These skills develop with exposure to peers and having to engage in social interaction. Missing out on social interaction throughout the unexpected closures of schools and other activities have severely limited social development among kids. Learning on a Zoom call cannot nearly encompass the opportunities for social learning that a playground, cafeteria, or classroom can. Even after schools opened up, kids have not been able to interact with each other as much as they have done before.</p>
+            </div>
+
+
+
+            <div className="des-process-description">
+                <h2>Describing the Challenge</h2>
                 <p>As a team, we knew we wanted to create a mobile application to provide a solution to this issue. However, the apparent problem was that online schooling is an unsuitable platform for social learning. How would we be able to transform an interface that inherently facilitates less face-to-face interaction into an experience that allows kids to practice conversational skills, problem-solving, and coexisting with others?</p>
             </div>
 
-            <Row className="user-needs-playdate-container">
-                <Col xs={6} className="user-needs-playdate-img">
-                    <img className='img-fluid shadow-4' src="../img/Playdate/user-needs.jpg" alt="your-image-description" />
-                </Col>
-                <Col className="user-needs-playdate-text" xs={6}>
-                    <h2>Understanding the User: Addressing User Needs</h2>
-                    <p>
-                        During the brainstorming process, we identified our target user audience to be elementary school aged kids. However, social development changes drastically from one age bracket to the next making it important to tailor our app to a certain age. We decided to model our prototype around a user completing either 2nd or 3rd grade.
 
-                        Some key skills 2nd and 3rd graders should be able to learn at this stage in their executive functioning development include: </p>
-                    <br></br>
-                    <ol>
+            <div className="des-process-description">
+                <h2>Addressing User Needs</h2>
+                <p>During the brainstorming process, we identified our target user audience to be elementary school aged kids. However, social development changes drastically from one age bracket to the next making it important to tailor our app to a certain age. We decided to model our prototype around a user completing either 2nd or 3rd grade.
 
-                        <li> How to read cues and/or facial expressions of peers</li>
+                    Some key skills 2nd and 3rd graders should be able to learn at this stage in their executive functioning development include: </p>
+                <br></br>
+                <ol>
 
-                        <li> How to ask to join in play </li>
+                    <li> How to read cues and/or facial expressions of peers</li>
 
-                        <li>How to respond to peers, especially when told no, or when teased </li>
+                    <li> How to ask to join in play </li>
 
-                        <li>How to ask for what they want/need in healthy and productive ways</li>
-                    </ol>
+                    <li>How to respond to peers, especially when told no, or when teased </li>
 
-                </Col>
-            </Row>
+                    <li>How to ask for what they want/need in healthy and productive ways</li>
+                </ol>
+            </div>
 
-            <MDBRow className="dev-sol-playdate-container">
+            {/* <MDBRow className="dev-sol-playdate-container">
                 <MDBCol md="6">
                     <div id="developing-solution-playdate">
                         <h1 id="developing-solution-heading">Developing a Solution</h1>
@@ -98,7 +94,15 @@ export function PlayDate(props) {
                         <img src="../img/Playdate/ideation-playdate.png" />
                     </div>
                 </MDBCol>
-            </MDBRow>
+            </MDBRow> */}
+
+            <div className="des-process-description">
+                <h2>Developing a Solution</h2>
+                <p>Given a short timeframe, we decided to condense our journey map and low fidelity prototype into a FigJam ideation board. A few key components we were considering including splitting the types of interactions into a “Practice on Your Own” feature and a “Connect with the Class” feature where teachers and students could have a forum to facilitate discussion.</p>
+                <div id="empathize-img">
+                    <img src="../img/Playdate/ideation-playdate.png" />
+                </div>
+            </div>
 
             <MDBContainer className='activity-types-playdate'>
                 <MDBRow>
@@ -120,26 +124,6 @@ export function PlayDate(props) {
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>
-
-            <h1 id="sel-screens-playdate">Selected Screens</h1>
-
-            <MDBRow className='playdate-carousel'>
-                <MDBCol md="2">
-                    <img src='../img/Playdate/carousel-1.webp' title='carousel-1' />
-                </MDBCol>
-                <MDBCol md="2">
-                    <img src='../img/Playdate/carousel-2.webp' title='carousel-2' />
-                </MDBCol>
-                <MDBCol md="2">
-                    <img src='../img/Playdate/carousel-3.webp' title='carousel-3' />
-                </MDBCol>
-                <MDBCol md="2">
-                    <img src='../img/Playdate/carousel-4.webp' title='carousel-4' />
-                </MDBCol>
-                <MDBCol md="2">
-                    <img src='../img/Playdate/carousel-5.webp' title='carousel-5' />
-                </MDBCol>
-            </MDBRow>
 
 
             <div id="final-sol-playdate">

@@ -153,6 +153,12 @@ a:link {
   transform: scale(1.03);
 }
 
+/* Playdate Page new */
+
+
+
+
+
 /*  Playdate Page */
 
 .playdate-proj-description {
@@ -195,7 +201,7 @@ a:link {
 .playdate-details {
   background-color: #a060ad;
   color: white;
-  padding: 7rem;
+  padding: 3rem;
   text-align: justify;
 }
 
@@ -204,20 +210,12 @@ a:link {
 }
 
 .playdate-details .playdate-context {
-  padding-right: 6rem;
-  padding-left: 6rem;
+  /* padding-right: 6rem;
+  padding-left: 6rem; */
 }
 
 .playdate-details .playdate-result {
-  padding-right: 8rem;
-}
-
-#des-process-playdate {
-  text-align: center;
-  font-family: 'DM Serif Display', serif;
-  margin: 5rem;
-  font-size: 3.5rem;
-  color: #001565;
+  /* padding-right: 8rem; */
 }
 
 .playdate-def-problem-img img {
@@ -251,36 +249,6 @@ a:link {
   padding-right: 3rem;
 }
 
-.playdate-def-container p {
-  font-family: 'Libre Franklin', sans-serif;
-  /* letter-spacing: 0.05rem; */
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.playdate-def-problem-text {
-  padding-left: 3rem;
-  line-height: 1.7rem;
-}
-
-#describing-challenge-playdate {
-  margin-left: 10rem;
-  margin-right: 10rem;
-  font-family: 'Libre Franklin', sans-serif;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  text-align: justify;
-  line-height: 1.7rem;
-  margin-bottom: 10rem;
-}
-
-#describing-challenge-playdate-heading {
-  text-align: center;
-  font-family: 'DM Serif Display', serif;
-  margin: 5rem;
-  font-size: 3.5rem;
-  color: #a270d1;
-}
 
 .user-needs-playdate-img img {
   float: right;
@@ -399,14 +367,15 @@ a:link {
 }
 
 .playdate-carousel img {
-  max-width: 300px;
-  max-height: 400px;
+  width: 290px;
+  height: 500px;
 }
 
 .playdate-carousel {
-  justify-content: space-between;
   margin-right: 2rem !important;
   margin-left: 2rem !important;
+  /* padding: 5rem; */
+  justify-content: center;
 
 }
 
@@ -511,7 +480,7 @@ a:link {
   padding-left: 3rem !important;
 }
 
-#des-process-vr {
+.des-process {
   text-align: center;
   font-family: 'DM Serif Display', serif;
   margin: 5rem;
