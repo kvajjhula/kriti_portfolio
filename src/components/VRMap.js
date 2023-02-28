@@ -26,19 +26,22 @@ export function VRMap(props) {
                         <h2>Context</h2>
                         <p>The VR Learning Map was my primary project while working as an education technology intern at education research organization Foundry10 during the summer and fall of 2022. I worked on the edtech team which engaged in the research, programming and collaborative philanthropy across many different kinds of technologies used in education. I did research with VR hardware, software and emerging technologies like XR and adaptive learning. For this project, I worked primarily with educational VR. Although I completed this project individually, I worked alongside another intern to do preliminary research into the problem space.</p>
 
+                    
+
+                        <h2>Roles</h2>
+                    <p>User Research, Interface Design, Data Visualization, UX Design</p>
+
                         {/* The project goal was open ended towards the beginning and I was given a lot of creative freedom with the solutions and resources I could design.  */}
                     </div>
 
                 </MDBCol>
-                <MDBCol md='4' className="vr-result">
+                <MDBCol md='6' className="vr-result">
                     <h2>Result</h2>
                     <p>By the end of 7 months I designed and helped develop an interactive map web plugin with Figma and Tableau that visualizes educational VR immersive experiences in Seattle as a resource for local educators to introduce VR to students.</p>
 
                     <h2>Type/Timeline</h2>
                     <p>Product Design<br />Web Design<br />7 months</p>
 
-                    <h2>Roles</h2>
-                    <p>User Research, Interface Design, Data Visualization, UX Design</p>
                 </MDBCol>
 
             </MDBRow>
