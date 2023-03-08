@@ -119,7 +119,7 @@ export function PlayDate(props) {
                     </MDBCol>
                     <MDBCol md="4">
                         <h2>Navigate Through a Story</h2>
-                        <img src="../img/Playdate/nav-story.webp" />
+                        <img src="../img/Playdate/nav-story.png" />
                         <p className='act-types-playdate-desc'>Presents the user with a social scenario in which they have to identify emotion cues, show ability to empathize and respond to a social situation appropriately.</p>
                     </MDBCol>
                 </MDBRow>

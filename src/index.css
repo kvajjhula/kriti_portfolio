@@ -324,26 +324,26 @@ a:link {
 .activity-types-playdate {
   padding-left: 3rem !important;
   padding-right: 3rem !important;
-  background-color: #5757b5;
+  /* background-color: #5757b5; */
   text-align: center;
 }
 
 .activity-types-playdate img {
-  max-width: 175px;
-  max-height: 340px;
+  max-width: 35000px;
+  max-height: 700px;
   margin: 1.5rem;
 }
 
 .activity-types-playdate h1,
 .activity-types-playdate h2 {
-  color: white;
+  /* color: white; */
   font-family: 'DM Serif Display', serif;
   margin: 1rem;
 }
 
 .act-types-playdate-desc {
   text-align: justify;
-  color: white;
+  /* color: white; */
 }
 
 
@@ -498,12 +498,12 @@ a:link {
   text-align: center;
 }
 
-/* #empathize-img {
+#empathize-img {
   text-align: center;
-} */
+}
 
 #empathize-img img {
-  border: 5px solid #555;
+  /* border: 5px solid #555; */
   /* max-width: 400px; */
 }
 
