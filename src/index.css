@@ -498,8 +498,13 @@ a:link {
   text-align: center;
 }
 
-#empathize-img {
+/* #empathize-img {
   text-align: center;
+} */
+
+#empathize-img img {
+  border: 5px solid #555;
+  /* max-width: 400px; */
 }
 
 .des-process-description {

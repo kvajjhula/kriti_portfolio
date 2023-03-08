@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { MDBCard, MDBRipple, MDBCardImage, MDBRow, MDBCol, MDBContainer } from 'mdb-react-ui-kit';
+import { MDBRow, MDBCol, MDBContainer } from 'mdb-react-ui-kit';
 
 
 export function ProjectsPage(props) {
