@@ -609,7 +609,7 @@ a:link {
 .vcd-design-description-themes h2 {
   font-family: 'DM Serif Display', serif;
   text-align: center;
-  color: #00125f;
+  /* color: #00125f; */
 }
 
 .vcd-design-description p,
