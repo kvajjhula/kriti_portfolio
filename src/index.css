@@ -75,8 +75,13 @@ html {
   background-color: #001565 !important;
   border-color: #001565 !important;
   font-family: 'Libre Franklin', sans-serif !important;
+  padding-left: 0;
+  transition: background-color 0.3s ease; /* add transition effect for a smoother color change */
 }
 
+.btn-primary:hover {
+  background-color: #314CA3 !important; /* change background color when button is being hovered over */
+}
 
 /* @media (min-width: 320px) {
 
@@ -415,6 +420,14 @@ a:link {
 
 /* VR Learning Map */
 
+.button-box {
+  display: flex;
+  justify-content:space-evenly;
+  width: 80%;
+  margin-left: 2rem;
+  text-align: center;
+}
+
 .vr-proj-description {
   margin-top: 3rem;
 }
@@ -431,6 +444,7 @@ a:link {
   max-width: 600px;
   -webkit-filter: drop-shadow(5px 5px 5px #666666);
   filter: drop-shadow(5px 5px 5px #666666);
+  border-radius: 0.7rem;
 }
 
 .vr-intro-text p {
@@ -492,6 +506,7 @@ a:link {
   max-width: 700px;
   -webkit-filter: drop-shadow(5px 5px 5px #666666);
   filter: drop-shadow(5px 5px 5px #666666);
+  border-radius: 0.7rem;
 }
 
 #vr-map-img {

@@ -1,5 +1,6 @@
 import React from 'react';
 import { MDBRow, MDBCol, MDBBtn, MDBContainer } from 'mdb-react-ui-kit';
+import { Button } from 'react-bootstrap';
 
 export function VRMap(props) {
     return (
@@ -15,8 +16,16 @@ export function VRMap(props) {
                         <h1>Foundry10 VR Learning Map</h1>
                         <h2>Individual Internship Project</h2>
                         <p>The Foundry10 VR Learning Map is an interactive map web plugin that visualizes educational VR immersive experiences in the Seattle metro area as a resource for local educators to introduce VR to students
+                            <br />
+                            <br />
+
                         </p>
                     </div>
+                    <div className='button-box'>
+                        <Button variant="primary" size = 'lg' href="https://www.foundry10.org/vr-learning-map">View Live Site</Button>
+                        <Button variant="outline-secondary" size = 'lg' href="https://www.figma.com/proto/e5POjo1aNSN6MUuRV25p4f/Final-Version?scaling=min-zoom&page-id=0%3A1&node-id=2%3A2&starting-point-node-id=2%3A2">View Prototype</Button>
+                    </div>
+                    <br />
                 </MDBCol>
             </MDBRow>
 
@@ -26,10 +35,10 @@ export function VRMap(props) {
                         <h2>Context</h2>
                         <p>The VR Learning Map was my primary project while working as an education technology intern at education research organization Foundry10 during the summer and fall of 2022. I worked on the edtech team which engaged in the research, programming and collaborative philanthropy across many different kinds of technologies used in education. I did research with VR hardware, software and emerging technologies like XR and adaptive learning. For this project, I worked primarily with educational VR. Although I completed this project individually, I worked alongside another intern to do preliminary research into the problem space.</p>
 
-                    
+
 
                         <h2>Roles</h2>
-                    <p>User Research, Interface Design, Data Visualization, UX Design</p>
+                        <p>User Research, Interface Design, Data Visualization, UX Design</p>
 
                         {/* The project goal was open ended towards the beginning and I was given a lot of creative freedom with the solutions and resources I could design.  */}
                     </div>
@@ -112,25 +121,6 @@ export function VRMap(props) {
                 </p>
             </div>
 
-            <div className="des-process-description">
-                <h2>Final Solution</h2>
-                {/* <p> After creating the final Figma prototype in Figma
-                </p> */}
-            </div>
-
-
-
-
-
-
-            <div className='d-flex'>
-                <MDBBtn color="primary" className="mx-auto" href="https://www.foundry10.org/vr-learning-map">
-                    View Live Site!
-                </MDBBtn>
-                <MDBBtn color="primary" className="mx-auto" href="https://www.figma.com/proto/e5POjo1aNSN6MUuRV25p4f/Final-Version?scaling=min-zoom&page-id=0%3A1&node-id=2%3A2&starting-point-node-id=2%3A2">
-                    View Prototype!
-                </MDBBtn>
-            </div>
         </div>
     )
 }
