@@ -1,6 +1,7 @@
 import React from 'react';
 import { MDBRow, MDBCol, MDBContainer, MDBBtn } from 'mdb-react-ui-kit';
-import { Row, Col } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
+
 
 
 export function PlayDate(props) {
@@ -8,13 +9,18 @@ export function PlayDate(props) {
         <div>
             <MDBRow className='playdate-proj-description'>
                 <MDBCol className='playdate-title-img' md='4'>
-                    <img className='heading-img' src='../img/Playdate/heading_image.webp' />
+                    <img className='heading-img' src='../img/Playdate/navigate-through-story.png' />
                 </MDBCol>
                 <MDBCol md='8'>
                     <div className='playdate-title'>
                         <h1>Playdate</h1>
                         <h2>UW WINFO Hackathon Project</h2>
                         Due to the pandemic, elementary school aged children are no longer able to practice social and developmental skills like they previously could in school settings with their friends, peers, and adult figures. Our app, “Playdate”, bridges this gap in social learning by providing essential features to aid elementary aged children in their growth and development.
+                    </div>
+                    <br/>
+                    <br/>
+                    <div className='button-box'>
+                        <Button variant="primary" size='lg' href="https://www.figma.com/proto/lCc9WGftRnmC7Z52bB0XOZ/WINFO-Hack-(Copy)?node-id=353-827&scaling=scale-down&page-id=0%3A1&starting-point-node-id=353%3A827">View Prototype</Button>
                     </div>
                 </MDBCol>
             </MDBRow>
@@ -45,9 +51,9 @@ export function PlayDate(props) {
             <h1 className="des-process">Design Process</h1>
 
 
-            <MDBRow className='playdate-carousel'>
+            {/* <MDBRow className='playdate-carousel'>
                 <img src='../img/Playdate/gifmock.gif' title='carousel-1' />
-            </MDBRow>
+            </MDBRow> */}
 
 
 
@@ -82,20 +88,6 @@ export function PlayDate(props) {
                 </ol>
             </div>
 
-            {/* <MDBRow className="dev-sol-playdate-container">
-                <MDBCol md="6">
-                    <div id="developing-solution-playdate">
-                        <h1 id="developing-solution-heading">Developing a Solution</h1>
-                        <p>Given a short timeframe, we decided to condense our journey map and low fidelity prototype into a FigJam ideation board. A few key components we were considering including splitting the types of interactions into a “Practice on Your Own” feature and a “Connect with the Class” feature where teachers and students could have a forum to facilitate discussion.</p>
-                    </div>
-                </MDBCol>
-                <MDBCol md="6">
-                    <div className="ideation-playdate">
-                        <img src="../img/Playdate/ideation-playdate.png" />
-                    </div>
-                </MDBCol>
-            </MDBRow> */}
-
             <div className="des-process-description">
                 <h2>Developing a Solution</h2>
                 <p>Given a short timeframe, we decided to condense our journey map and low fidelity prototype into a FigJam ideation board. A few key components we were considering including splitting the types of interactions into a “Practice on Your Own” feature and a “Connect with the Class” feature where teachers and students could have a forum to facilitate discussion.</p>
@@ -109,12 +101,12 @@ export function PlayDate(props) {
                     <h1>Types of Activities</h1>
                     <MDBCol md="4">
                         <h2>Conversations with Class</h2>
-                        <img src="../img/Playdate/conv-class.webp" />
+                        <img src="../img/Playdate/discussion.png" />
                         <p className='act-types-playdate-desc'>Allows the child to interact with peers with a teacher or supervisor to mediate the discussion. They are able to create fun and interesting prompts for the class to talk about and record and submit their responses.</p>
                     </MDBCol>
                     <MDBCol md="4">
                         <h2>Conversation Starters</h2>
-                        <img src="../img/Playdate/conv-starters.webp" />
+                        <img src="../img/Playdate/conversation-starters.png" />
                         <p className='act-types-playdate-desc'>Gives ideas for different scenarios to facilitate casual conversation with other peers. This feature also allows the user to practice and record and save their responses.</p>
                     </MDBCol>
                     <MDBCol md="4">
@@ -129,11 +121,12 @@ export function PlayDate(props) {
             <div id="final-sol-playdate">
                 <h1 id="final-sol-playdate-heading">Final Components</h1>
                 <p>PlayDate has two main components that allow students to engage with the learning content and interact with their peers; “Practice on Your Own” and “Connect with your Class”. The “Practice on Your Own” allows students to practice cues, responses, and facial expressions and engage in voice incorporated tasks/games individually, earning points as they go. The Connect with your Class allows teachers to monitor student’ live interactions via discussion posts.</p>
-                <div className="d-flex align-items-center playdate-button-prototype-div">
+                {/* <div className="d-flex align-items-center playdate-button-prototype-div">
                     <MDBBtn color="primary" className="mx-auto" href="https://www.figma.com/proto/Ml8naDrZoGdohDDoa2nAtc/WINFO-Hack?node-id=0%3A1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=9%3A2">
                         View Prototype
                     </MDBBtn>
-                </div>
+                </div> */}
+                <br/>
             </div>
         </div >
     )
