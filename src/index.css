@@ -76,11 +76,13 @@ html {
   border-color: #001565 !important;
   font-family: 'Libre Franklin', sans-serif !important;
   padding-left: 0;
-  transition: background-color 0.3s ease; /* add transition effect for a smoother color change */
+  transition: background-color 0.3s ease;
+  /* add transition effect for a smoother color change */
 }
 
 .btn-primary:hover {
-  background-color: #314CA3 !important; /* change background color when button is being hovered over */
+  background-color: #314CA3 !important;
+  /* change background color when button is being hovered over */
 }
 
 /* @media (min-width: 320px) {
@@ -428,7 +430,7 @@ a:link {
 
 .button-box {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   width: 80%;
   margin-left: 2rem;
   text-align: center;
@@ -640,7 +642,8 @@ a:link {
 
 
 .vcd-design-description p,
-.vcd-design-description-themes p, #mindmap-vcd p {
+.vcd-design-description-themes p,
+#mindmap-vcd p {
   font-family: 'Libre Franklin', sans-serif;
 }
 
@@ -654,6 +657,7 @@ a:link {
   max-width: 400px;
   -webkit-filter: drop-shadow(5px 5px 5px #666666);
   filter: drop-shadow(5px 5px 5px #666666);
+  margin: 1rem;
 }
 
 #vcd-og-cover-img {
@@ -672,15 +676,15 @@ a:link {
   text-align: justify;
 }
 
-#mindmap-vcd img{
+#mindmap-vcd img {
   max-width: 1100px;
 }
 
 #mindmap-vcd h1 {
-  font-size: 3rem; 
+  font-size: 3rem;
   font-family: 'DM Serif Display', serif;
   text-align: center;
-  color: #00125f; 
+  color: #00125f;
 }
 
 #mindmap-vcd {
@@ -712,11 +716,17 @@ a:link {
   margin: 1rem;
 }
 
+
+
 @media (max-width: 1200px) {
 
   /* VR Page */
   .vr-intro {
     flex-direction: column;
+  }
+
+  .vr-intro img {
+    max-width: 500px;
   }
 
   .vr-intro img {
@@ -746,8 +756,34 @@ a:link {
     flex-direction: column;
   }
 
-  .vr-intro img {
-    max-width: 500px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  #vcd-og-cover-img img {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
+  #mindmap-vcd img {
+    max-width: 800px;
+  }
+
+  .vcd-intro-img img {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .vcd-intro-img {
+    text-align: center !important;
+  }
+
+  #mindmap-vcd img {
+    max-width: 600px;
+  }
+
+  .vcd-intro-img img {
+    max-width: 300px;
+  }
 }
