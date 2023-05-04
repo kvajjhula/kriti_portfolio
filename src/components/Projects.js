@@ -41,7 +41,7 @@ export function ProjectsPage(props) {
                 <MDBRow className='project-cards row-cols-1 row-cols-md-2 g-4 my-5 mx-3'>
                     <MDBCol md='6'>
                         {/* <Link to={"/PlantParenthood"}> */}
-                        <a href = 'https://plant-parenthood-b1597.web.app/'>
+                        <a href='https://plant-parenthood-b1597.web.app/'>
                             <div className='card-img'>
                                 <img className="img-fluid hover-shadow rounded-4"
                                     src="../img/pp.png"
@@ -70,17 +70,17 @@ export function ProjectsPage(props) {
                     <MDBCol md='6' >
                         <Link to={"/MindMeet"}>
                             <div className='card-img'>
-                            <img className="img-fluid hover-shadow rounded-4"
-                                src="../img/mindmeet.jpg"
-                                alt='...'
-                                position='top'
-                            />
-                            <h2>MindMeet | UX Design</h2>
+                                <img className="img-fluid hover-shadow rounded-4"
+                                    src="../img/mindmeet.jpg"
+                                    alt='...'
+                                    position='top'
+                                />
+                                <h2>MindMeet | UX Design</h2>
                             </div>
                         </Link>
                     </MDBCol>
                 </MDBRow>
-                
+
             </MDBContainer>
         </div>
 
