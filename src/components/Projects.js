@@ -66,20 +66,20 @@ export function ProjectsPage(props) {
                         </Link>
                     </MDBCol>
                 </MDBRow>
-                {/* <MDBRow className='project-cards row-cols-1 row-cols-md-2 g-4 my-5 mx-3'>
+                <MDBRow className='project-cards row-cols-1 row-cols-md-2 g-4 my-5 mx-3'>
                     <MDBCol md='6' >
-                        <Link to={"/Guppy"}>
+                        <Link to={"/MindMeet"}>
                             <div className='card-img'>
                             <img className="img-fluid hover-shadow rounded-4"
-                                src="../img/guppy-project.png"
+                                src="../img/mindmeet.jpg"
                                 alt='...'
                                 position='top'
                             />
-                            <h2>Guppy | UX Design</h2>
+                            <h2>MindMeet | UX Design</h2>
                             </div>
                         </Link>
                     </MDBCol>
-                </MDBRow> */}
+                </MDBRow>
                 
             </MDBContainer>
         </div>

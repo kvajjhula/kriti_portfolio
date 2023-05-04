@@ -35,7 +35,7 @@ export function PlayDate(props) {
                         <MDBRow>
                             <MDBCol className="playdate-result">
                                 <h3>Result</h3>
-                                <p>At the end of the 2 days, we created a high fidelity prototype using Figma for a mobile application that modeled a solution that addressed all of our goals.</p>
+                                <p>At the end of the 2 days, we created a high fidelity prototype using Figma for a mobile application that modeled a solution that addressed all of our goals. However, all of the screens that are currently displayed are the result of a dramatic redesign that I took on a year after the hackathon ended. The original as well as the new and improved version are both shown in the following case study.</p>
                             </MDBCol>
                             <MDBRow>
                                 <MDBCol className="group-members">
@@ -95,6 +95,23 @@ export function PlayDate(props) {
                     <img src="../img/Playdate/ideation-playdate.png" />
                 </div>
             </div>
+
+            <MDBRow className='playdate-og-sub'>
+                <MDBCol md='5' id="playdate-oldsol-img">
+                    <img src='../img/playdate/old-sub.png' />
+                </MDBCol>
+
+                <MDBCol id="playdate-og-cover-right" md='7'>
+                    <h2>Original Hackathon Submission</h2>
+                    <p> The screens shown to the left were part of the original submission for the hackathon. During the redesign I identified some key unappealing parts of the visual design: For elementary age children, who are the target user, the color palette needed to be vibrant and convey a sense of enthusiasm and creativity. As a result, the new color palette has a variety of hues and tints of coral, teal, yellow, green and purple that embody the app's message and brand.
+                    <br></br>
+                    Additionally, the purpose and idea of some of the games/features were not impactful from a UX perspective in the original project as a few shared key similarities, so I consolidated similar games into one to ensure that users had a meaningful learning experience by completing the games.
+                    <br></br>
+                    The original project also had a navigational issue where there were too many clicks to get to the key features, so that was simplified as well.
+                 </p>
+                </MDBCol>
+            </MDBRow>
+
 
             <MDBContainer className='activity-types-playdate'>
                 <MDBRow>

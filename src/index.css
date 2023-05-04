@@ -160,13 +160,15 @@ a:link {
   transform: scale(1.03);
 }
 
-/* Playdate Page new */
-
-
-
 
 
 /*  Playdate Page */
+
+.playdate-og-sub {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 6rem;
+}
 
 .playdate-proj-description {
   margin-bottom: 5rem !important;
@@ -297,6 +299,20 @@ a:link {
 
 .user-needs-playdate-text ol {
   padding-left: 4rem;
+}
+
+#playdate-oldsol-img img {
+  max-width: 520px;
+  margin: 1rem;
+}
+
+#playdate-oldsol-img {
+  padding-right: 3rem;
+}
+
+.playdate-og-sub p {
+  text-align: center;
+  margin-top: 1.5rem;
 }
 
 
@@ -634,7 +650,7 @@ a:link {
   color: white;
 }
 
-.vcd-design-description-themes h2 {
+.vcd-design-description-themes h2, .playdate-og-sub h2 {
   font-family: 'DM Serif Display', serif;
   text-align: center;
   color: #00125f;
@@ -643,7 +659,8 @@ a:link {
 
 .vcd-design-description p,
 .vcd-design-description-themes p,
-#mindmap-vcd p {
+#mindmap-vcd p,
+.playdate-og-sub p {
   font-family: 'Libre Franklin', sans-serif;
 }
 
@@ -664,7 +681,7 @@ a:link {
   padding-right: 3rem;
 }
 
-#vcd-og-cover-right {
+#vcd-og-cover-right, #playdate-og-cover-right {
   padding-left: 4rem;
   padding-right: 4rem;
 }
@@ -759,7 +776,7 @@ a:link {
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  #vcd-og-cover-img img {
+  #vcd-og-cover-img img,  #playdate-oldsol-img{
     display: block;
     width: 100%;
     height: auto;
@@ -775,10 +792,11 @@ a:link {
 }
 
 @media (max-width: 768px) {
+
+
   .vcd-intro-img {
     text-align: center !important;
   }
-
   #mindmap-vcd img {
     max-width: 600px;
   }
