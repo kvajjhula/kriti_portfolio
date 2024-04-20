@@ -1,29 +1,30 @@
-import { MDBFooter, MDBBtn } from 'mdb-react-ui-kit';
+import { MDBFooter, MDBContainer, MDBBtn, MDBRow } from 'mdb-react-ui-kit';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
+import { ProjectsPage } from './Projects';
 
 export function HomePage(props) {
     return (
         <main>
-            <div className="home-body">
-                <div className="home-container gap-2">
-                    <div className="heading">
-                        <h1>Kriti Vajjhula</h1>
-                    </div>
-                    <div className="subheading">
-                        <h2>Undergraduate Student</h2>
-                    </div>
-                    <div className="paragraph">
-                        <p>I’m a third year student at the University of Washington Seattle studying informatics with a focus in Human Computer Interaction and Software Development. I am passionate about tackling design projects that are rooted at the intersection of education and sustainability.</p>
-                    </div>
-                    <Link to="/Projects">
-                        <Button variant="primary">See My Work!</Button>
+            <MDBContainer style={{ paddingTop: '5rem', paddingBottom: '5rem', width: '85%' }}>
+                <MDBRow className='align-items-center' style={{marginBottom: '5rem'}}>
+                    <div>
+                        <div>
+                            <div>
+                            <h1>Hi there! I'm Kriti Vajjhula <span class="emoji">✰</span></h1>
+                            </div>
+                            <div>
+                                <h2>I'm a 4th year student at the University of Washington Seattle studying informatics with a focus in Human Computer Interaction and Software Development. I am passionate about tackling design projects that are rooted at the intersection of education and sustainability.</h2>
+                            </div>
 
-                    </Link>
-                </div>
-            </div >
-
+                        </div>
+                    </div >
+                </MDBRow>
+                <MDBRow>
+                    <ProjectsPage />
+                </MDBRow>
+            </MDBContainer>
             <MDBFooter>
                 <div className='text-center p-3'>
                     <p>Designed and developed with ♥ by Kriti Vajjhula</p>

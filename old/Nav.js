@@ -16,7 +16,7 @@ export function NavBar(props) {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="nav-right-container ms-auto">
-                        {/* <Nav.Link as={Link} to='/Projects' >Projects</Nav.Link> */}
+                        <Nav.Link as={Link} to='/Projects' >Projects</Nav.Link>
                         <Nav.Link onClick={openPdf}>CV</Nav.Link>
                         <Nav.Link>Contact</Nav.Link>
                     </Nav>

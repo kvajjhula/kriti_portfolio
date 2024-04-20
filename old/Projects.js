@@ -5,25 +5,22 @@ import { MDBRow, MDBCol, MDBContainer } from 'mdb-react-ui-kit';
 
 export function ProjectsPage(props) {
     return (
-        <div>
-            <div style={{ textAlign: 'center' }}>
+        <div className='project-page'>
+            <div className='project-title'>
                 <h1>Projects</h1>
             </div>
 
             <MDBContainer>
-                <MDBRow className='row-cols-1 row-cols-md-2 g-4 my-5 mx-3'>
-
+                <MDBRow className='project-cards row-cols-1 row-cols-md-2 g-4 my-5 mx-3'>
                     <MDBCol md='6'>
-                        <Link to={"/Pomegranate"}>
+                        <Link to={"/PlayDate"}>
                             <div className='card-img'>
                                 <img className="img-fluid hover-shadow rounded-4"
-                                    src="../img/pom.png"
+                                    src="../img/playdate-proj.png"
                                     alt='...'
                                     position='top'
-                                    loading='lazy'
-                                    style={{ marginBottom: '20px' }}
                                 />
-                                <h2>Pomegranate | Product Design</h2>
+                                <h2>Playdate | UX Design</h2>
                             </div>
                         </Link>
                     </MDBCol>
@@ -34,30 +31,14 @@ export function ProjectsPage(props) {
                                     src='../img/vr-map.png'
                                     alt='...'
                                     position='top'
-                                    loading='lazy'
-                                    style={{ marginBottom: '20px' }}
                                 />
                                 <h2>VR Learning Map | Product Design</h2>
                             </div>
                         </Link>
                     </MDBCol>
                 </MDBRow>
-                <MDBRow className='row-cols-1 row-cols-md-2 g-4 my-5 mx-3'>
 
-                    <MDBCol md='6'>
-                        <Link to={"/PlayDate"}>
-                            <div className='card-img'>
-                                <img className="img-fluid hover-shadow rounded-4"
-                                    src="../img/playdate-proj.png"
-                                    alt='...'
-                                    position='top'
-                                    loading='lazy'
-                                    style={{ marginBottom: '20px' }}
-                                />
-                                <h2>Playdate | UX Design</h2>
-                            </div>
-                        </Link>
-                    </MDBCol>
+                <MDBRow className='project-cards row-cols-1 row-cols-md-2 g-4 my-5 mx-3'>
                     <MDBCol md='6'>
                         {/* <Link to={"/PlantParenthood"}> */}
                         <a href='https://plant-parenthood-b1597.web.app/'>
@@ -66,47 +47,12 @@ export function ProjectsPage(props) {
                                     src="../img/pp.png"
                                     alt='...'
                                     position='top'
-                                    loading='lazy'
-                                    style={{ marginBottom: '20px' }}
                                 />
                                 <h2>Plant Parenthood | Front-End Development (HTML/CSS/JS + React)</h2>
                             </div>
                         </a>
                         {/* </Link> */}
                     </MDBCol>
-                </MDBRow>
-                <MDBRow className='row-cols-1 row-cols-md-2 g-4 my-5 mx-3'>
-                    <MDBCol md='6' >
-                        <Link to={"/MenstrualHealth"}>
-                            <div className='card-img'>
-                                <img className="img-fluid hover-shadow rounded-4"
-                                    src="../img/rstudio.png"
-                                    alt='...'
-                                    position='top'
-                                    loading='lazy'
-                                    style={{ marginBottom: '20px' }}
-                                />
-                                <h2>Menstrual Health in India | Data Analysis</h2>
-                            </div>
-                        </Link>
-                    </MDBCol>
-                    <MDBCol md='6' >
-                        <Link to={"/MindMeet"}>
-                            <div className='card-img'>
-                                <img className="img-fluid hover-shadow rounded-4"
-                                    src="../img/mindmeet.png"
-                                    alt='...'
-                                    position='top'
-                                    loading='lazy'
-                                    style={{ marginBottom: '20px' }}
-                                />
-                                <h2>MindMeet | UX Design</h2>
-                            </div>
-                        </Link>
-                    </MDBCol>
-                </MDBRow>
-                <MDBRow className='row-cols-1 row-cols-md-2 g-4 my-5 mx-3'>
-
                     <MDBCol md="6">
                         <Link to={"/VCD"}>
                             <div className='card-img'>
@@ -114,15 +60,27 @@ export function ProjectsPage(props) {
                                     src="../img/des166graphic.png"
                                     alt='...'
                                     position='top'
-                                    loading='lazy'
-                                    style={{ marginBottom: '20px' }}
                                 />
                                 <h2>New York Times Magazine Redesign | Visual Design</h2>
                             </div>
                         </Link>
                     </MDBCol>
-
                 </MDBRow>
+                <MDBRow className='project-cards row-cols-1 row-cols-md-2 g-4 my-5 mx-3'>
+                    <MDBCol md='6' >
+                        <Link to={"/MindMeet"}>
+                            <div className='card-img'>
+                                <img className="img-fluid hover-shadow rounded-4"
+                                    src="../img/mindmeet.jpg"
+                                    alt='...'
+                                    position='top'
+                                />
+                                <h2>MindMeet | UX Design</h2>
+                            </div>
+                        </Link>
+                    </MDBCol>
+                </MDBRow>
+
             </MDBContainer>
         </div>
 

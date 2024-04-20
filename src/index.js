@@ -4,13 +4,12 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from '../src/components/App.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import PROJECTS from './data/projects.json';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <App projects={PROJECTS}/>
+    <App/>
   </BrowserRouter>
 );
