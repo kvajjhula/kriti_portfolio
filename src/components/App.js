@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import { NavBar } from '../components/Nav.js';
 import { HomePage } from '../components/Home.js';
 import { VRMap } from './VRMap.js';

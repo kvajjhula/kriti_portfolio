@@ -1,7 +1,5 @@
-import { MDBFooter, MDBContainer, MDBBtn, MDBRow } from 'mdb-react-ui-kit';
+import { MDBFooter, MDBContainer, MDBRow } from 'mdb-react-ui-kit';
 import React from 'react';
-import Button from 'react-bootstrap/Button';
-import { Link } from 'react-router-dom';
 import { ProjectsPage } from './Projects';
 
 export function HomePage(props) {
