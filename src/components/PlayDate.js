@@ -55,7 +55,7 @@ export function PlayDate(props) {
                                 <li>How to respond to peers, especially when told no, or when teased </li>
                                 <li>How to ask for what they want/need in healthy and productive ways</li>
                             </ol>
-                            
+
                         </div>
 
                         <div style={{ marginTop: '5rem', marginBottom: '2.5rem' }}>
@@ -85,13 +85,13 @@ export function PlayDate(props) {
                                 style={{ width: '100%', height: 'auto', borderRadius: '1rem', marginBottom: '1rem' }}
                             />
                         </div>
-                        
+
                     </MDBCol>
                 </MDBRow>
                 <MDBRow>
-                <h1 className='h1-sub'>Final Prototype</h1>
-                <h2>Presenting the final version of PlayDate! Try it out below <span class="emoji">✰</span></h2>
-                <iframe title='final' style={{border: '1px solid rgba(0, 0, 0, 0.1)'}} height="850" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FlCc9WGftRnmC7Z52bB0XOZ%2FWINFO-Hack-(Copy)%3Ftype%3Ddesign%26node-id%3D353-827%26t%3DPEogJrQQ8OYdEfjj-1%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D353%253A827%26mode%3Ddesign" allowfullscreen></iframe>
+                    <h1 className='h1-sub'>Final Prototype</h1>
+                    <h2>Presenting the final version of PlayDate! Try it out below <span class="emoji">✰</span></h2>
+                    <iframe title='final' style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }} height="850" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FlCc9WGftRnmC7Z52bB0XOZ%2FWINFO-Hack-(Copy)%3Ftype%3Ddesign%26node-id%3D353-827%26t%3DPEogJrQQ8OYdEfjj-1%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D353%253A827%26mode%3Ddesign" allowfullscreen></iframe>
                 </MDBRow>
             </MDBContainer>
         </div>

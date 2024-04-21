@@ -75,7 +75,7 @@ export function ProjectsPage(props) {
                         {/* </Link> */}
                     </MDBCol>
                 </MDBRow>
-                <MDBRow className='row-cols-1 row-cols-md-2 g-4 my-5 mx-3'>
+                {/* <MDBRow className='row-cols-1 row-cols-md-2 g-4 my-5 mx-3'>
                     <MDBCol md='6' >
                         <Link to={"/MenstrualHealth"}>
                             <div className='card-img'>
@@ -122,7 +122,7 @@ export function ProjectsPage(props) {
                         </Link>
                     </MDBCol>
 
-                </MDBRow>
+                </MDBRow> */}
             </MDBContainer>
         </div>
 
