@@ -13,7 +13,7 @@ export function HomePage(props) {
                             <h1>Hi there! I'm Kriti Vajjhula <span class="emoji">✰</span></h1>
                             </div>
                             <div>
-                                <h2>I'm a 4th year student at the University of Washington Seattle studying informatics with a focus in Human Computer Interaction and Software Development. I am passionate about tackling design projects that are rooted at the intersection of education and sustainability.</h2>
+                                <h2 className='h2-main'>I'm a 4th year student at the University of Washington Seattle studying informatics with a focus in Human Computer Interaction and Software Development. I am passionate about tackling design projects that are rooted at the intersection of education and sustainability.</h2>
                             </div>
 
                         </div>

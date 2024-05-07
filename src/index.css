@@ -72,6 +72,13 @@ h1 {
   font-style: italic;
 }
 
+.h2-main {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1.5rem !important;
+  color: #001565;
+  line-height: 1.5 !important; 
+}
+
 p, li, span {
   font-size: 1.2rem;
   font-family: 'Libre Franklin', sans-serif;

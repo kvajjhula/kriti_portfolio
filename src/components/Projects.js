@@ -23,7 +23,7 @@ export function ProjectsPage(props) {
                                     loading='lazy'
                                     style={{ marginBottom: '20px' }}
                                 />
-                                <h2>Pomegranate | Product Design</h2>
+                                <h2 className='h2-main'>Pomegranate | Product Design</h2>
                             </div>
                         </Link>
                     </MDBCol>
@@ -37,7 +37,7 @@ export function ProjectsPage(props) {
                                     loading='lazy'
                                     style={{ marginBottom: '20px' }}
                                 />
-                                <h2>VR Learning Map | Product Design</h2>
+                                <h2 className='h2-main'>VR Learning Map | Product Design</h2>
                             </div>
                         </Link>
                     </MDBCol>
@@ -54,7 +54,7 @@ export function ProjectsPage(props) {
                                     loading='lazy'
                                     style={{ marginBottom: '20px' }}
                                 />
-                                <h2>Playdate | UX Design</h2>
+                                <h2 className='h2-main'>Playdate | UX Design</h2>
                             </div>
                         </Link>
                     </MDBCol>
@@ -69,7 +69,7 @@ export function ProjectsPage(props) {
                                     loading='lazy'
                                     style={{ marginBottom: '20px' }}
                                 />
-                                <h2>Plant Parenthood | Front-End Development (HTML/CSS/JS + React)</h2>
+                                <h2 className='h2-main'>Plant Parenthood | Front-End Development (HTML/CSS/JS + React)</h2>
                             </div>
                         </a>
                         {/* </Link> */}
